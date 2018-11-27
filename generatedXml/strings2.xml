@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="notelist_search_bar_default">Search by Page name or content</string>
+  <string name="notelist_search_bar_result_all_title_android">All</string>
+  <string name="notelist_search_bar_no_result">No Search Results</string>
+  <string name="notelist_default_sort_calendar_format_ym">MMMM yyyy</string>
+  <string name="write_board_state_sync_alert_info_mutil_pages_android">%d Pages not synced.</string>
+  <string name="update_dialog_find_new_version_downloading">Downloading…</string>
+  <string name="notelist_search_bar_result_all_android">All (%d)</string>
+  <string name="social_share_more_video_limit">You can only share nine videos at a time.</string>
+  <string name="notelist_default_sort_calendar">Filter by Date</string>
+  <string name="H5_share_content1_page_temp">(1 Page)</string>
+  <string name="notelist_search_bar_history">Search History</string>
+  <string name="H5_share_content1_pages_android">(%1$s Pages)</string>
+  <string name="write_board_state_sync_alert_info_1page_android">%d Page not synced.</string>
+  <string name="notelist_search_bar_result_all_ios">All (%@)</string>
+  <string name="notelist_default_sort_calendar_filter_result_all">View All Pages</string>
+  <string name="notelist_search_bar_result_page_name_android">Page Name (%d)</string>
+  <string name="notelist_search_bar_result_page_content_android">Page Content (%d)</string>
+  <string name="notelist_default_sort_calendar_start">Start Date Not Selected</string>
+  <string name="notelist_search_bar_result_page_name_ios">Page Name (%@)</string>
+  <string name="notelist_search_bar_result_page_content_ios">Page Content (%@)</string>
+  <string name="notelist_search_bar_result_page_name_title_android">Page Name</string>
+  <string name="notelist_default_sort_calendar_end">End Date Not Selected</string>
+  <string name="cloud_storage_sync_content13">%1$s</string>
+  <string name="H5_share_content1_pages_ios">(%ld Pages)</string>
+  <string name="notelist_default_sort_calendar_format_ymd">MM dd, yyyy</string>
+  <string name="notelist_search_bar_result_page_content_title_android">Page Content</string>
+</resources>

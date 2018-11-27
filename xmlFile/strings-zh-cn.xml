@@ -1,0 +1,519 @@
+<resources>
+    <string name="app_name">柔记</string>
+    <string name="board_settings_device_list_connect">连接</string>
+    <string name="board_settings_guide_no">暂不连接</string>
+    <string name="board_settings_guide_skip">跳过</string>
+    <string name="board_settings_scan_device_title">扫描设备</string>
+    <string name="board_settings_device_list_connecting">正在连接</string>
+    <string name="board_settings_guide_yes">有</string>
+    <string name="common_complete">完成</string>
+    <string name="system_msg_no_network">当前网络不可用</string>
+    <string name="board_settings_view_battery">电池电量</string>
+    <string name="board_settings_dfu_view_title">手写本固件升级</string>
+    <string name="app_settings_check_app_version_android">检查新版本</string>
+    <string name="board_settings_view_change_band_device">更换绑定设备</string>
+    <string name="notelist_bg_empty_text">Hello，欢迎来到柔记\n快去添加你的创意吧。</string>
+    <string name="app_settings_current_app_version_android">当前版本&#160;v%s</string>
+    <!--<string name="dfu_update_title">固件升级</string>-->
+    <string name="app_settings_checking_app_version">正在检查更新...</string>
+    <string name="app_settings_new_app_version_available_android">发现新App版本&#160;%s</string>
+    <string name="board_settings_dfu_view_new_version_android">发现新的固件版本&#160;%s</string>
+    <string name="board_settings_dfu_view_update_now">立即更新</string>
+    <string name="app_settings_new_app_version_already_android">你的App已经是最新版本v%s</string>
+    <string name="board_settings_dfu_view_already_latest_android">你的手写本固件已经是最新版本v%s</string>
+    <string name="board_settings_dfu_view_updating">固件更新中…\n请勿关闭手写本，并保持设备连接</string>
+    <string name="app_settings_update_downloading_android">App下载中...</string>
+    <string name="board_settings_dfu_view_downloading">固件包下载中...</string>
+    <string name="board_settings_dfu_view_update_success">固件升级成功</string>
+    <string name="board_settings_dfu_view_update_failed">固件升级失败</string>
+    <string name="board_settings_guide_tips">Hi,你是否拥有柔记智能手写本？</string>
+    <string name="notelist_double_click_exit_android">再次点击退出应用</string>
+    <string name="notelist_rename_view_rename">命名</string>
+    <string name="drawboard_set_pen_line_width_android">粗细:%spx</string>
+    <string name="drawboard_set_pen_line_alpha_android">不透明度:%s</string>
+    <string name="notelist_alert_delete_mesg">该操作将会删除这页纸，删除后无法恢复。</string>
+    <string name="gallery_delete_alert_msg">该操作将会删除当前页，删除后无法恢复。</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_ok">确定</string>
+    <string name="board_settings_dfu_view_not_wifi_tip_still_title">温馨提示</string>
+    <string name="save_tips">是否保存修改后的笔记属性</string>
+    <string name="notelist_rename_view_name_nil">名字不能为空</string>
+    <string name="write_board_state_sync_no_pages">手写本上没有存储笔记页</string>
+    <string name="settings_no_connect">未连接</string>
+    <string name="notelist_device_no_connect_tips">请连接手写本设备</string>
+    <string name="board_settings_device_list_bind_device">绑定设备</string>
+    <string name="board_settings_device_list_connect_failed">连接失败，请重试！</string>
+    <string name="write_board_state_did_connect">连接设备成功</string>
+    <string name="write_board_state_did_disconnect">设备断开连接</string>
+    <string name="write_board_state_sync_alert_syncing">笔记同步中</string>
+    <string name="drawboard_alert_new_page_success">新建一页纸</string>
+    <string name="drawboard_already_new_page">已经新建一页纸</string>
+    <string name="board_settings_dfu_view_not_wifi_tip_message">当前不在Wi-Fi环境下，你是否要使用流量下载最新版本</string>
+    <string name="app_settings_new_app_version_download_failed">下载失败，请重试！</string>
+    <string name="drawboard_tip_no_write">请在纸上书写你的笔记</string>
+    <string name="notelist_default_painting_name">随笔</string>
+    <!--       11111111111111111111111111111111111111111111111111111111111111111111111111111    -->
+
+    <string name="share_to">导出至</string>
+    <string name="board_settings_device_list_alert_disconnect_tip">是否要断开当前连接的设备？</string>
+    <string name="write_board_state_low_power">手写本设备电量过低，请充电</string>
+    <string name="write_board_state_out_of_disk">手写本设备存储容量快满了</string>
+    <string name="write_board_state_disk_full">手写本设备存储容量已满</string>
+    <string name="write_board_state_sync_alert_info_1page_android">手写本设备有%1$s页笔记未同步，同步时间预估%2$s</string>
+    <string name="write_board_state_sync_alert_info_mutil_pages_android">手写本设备有%1$s页笔记未同步，同步时间预估%2$s</string>
+    <string name="write_board_state_sync_alert_format_time_sec_android">%s秒</string>
+    <string name="write_board_state_sync_alert_format_time_min_android">%1$s分%2$s秒</string>
+    <string name="board_settings_view_alert_clear">清除手写本设备缓存</string>
+    <string name="board_settings_alert_clear_mesg">此动作会清除当前手写本硬件设备上存储的笔记内容，确定清除吗？</string>
+    <string name="board_settings_clear_now">正在清理...</string>
+    <string name="board_settings_clear_success">清理完成</string>
+    <string name="board_settings_scan_device_scan_mesg">将手写本背面的条形码放入框中，即可自动扫描</string>
+    <string name="board_settings_scan_device_scan_error">请确保手写本设备已经开机</string>
+    <string name="app_settings_store_title">商城</string>
+    <string name="board_settings_scan_device_camera_permission_tips">扫码连接需要开启摄像机权限，请开启摄像机权限</string>
+    <string name="board_settings_device_list_alert_disconnect">断开设备</string>
+    <string name="board_settings_device_list_connect_tips">请确保手写本设备电源键已经打开</string>
+    <string name="drawboard_alert_clear_warning">是否清空画布？</string>
+    <string name="drawboard_saving_note_android">正在保存...</string>
+    <string name="write_board_state_sync_error_android">第%s页笔记同步数据出现错误！</string>
+    <string name="drawboard_loading_note_android">正在加载...</string>
+    <string name="board_settings_device_list_title">设备列表</string>
+
+
+    <string name="social_share_moment">朋友圈</string>
+    <string name="social_share_friend">微信好友</string>
+    <string name="social_share_10s_video">10秒微视频</string>
+    <string name="social_share_original_video">普通视频</string>
+    <string name="app_notlist_share_facebook">Facebook</string>
+    <string name="app_notlist_share_messenger">Messenger</string>
+    <string name="app_notlist_share_instagram">Instagram</string>
+    <string name="social_share_save_img">保存图片</string>
+    <string name="social_share_save_pdf">保存本地</string>
+    <string name="social_share_more">更多</string>
+    <string name="social_share_img_saved">已保存至相册</string>
+    <string name="export_video_10s_video">保存10秒微视频</string>
+    <string name="export_video_normal_video">保存普通视频</string>
+    <string name="export_video_alert_exporting">生成视频中...</string>
+    <string name="export_video_completed">已保存至相册</string>
+    <string name="export_video_no_space">空间不足,保存失败</string>
+    <string name="export_video_export_error">保存失败</string>
+    <string name="system_msg_open_storage_camera_permission_android">请在设置中开启存储、相机权限以使用该功能</string>
+    <string name="system_msg_open_camera_permission_android">请在设置中开启相机权限以使用该功能</string>
+    <string name="board_settings_no_clear_content">暂无可清除的笔记</string>
+    <!-- 2 -->
+    <string name="settings_writeboard">硬件设置</string>
+    <string name="settings_rowrite_app">App设置</string>
+    <string name="settings_rowrite_guide">小教程</string>
+    <string name="settings_feedback">建议与反馈</string>
+    <string name="settings_feedback_placeholder">请写下你的任何想法，你将帮助我们更好地改善产品。</string>
+    <string name="settings_feedback_submit">完成</string>
+    <string name="settings_feedback_success">感谢你的反馈！</string>
+    <string name="settings_feedback_less_content">请输入2个字以上</string>
+    <string name="settings_feedback_more_content">建议500个字以内</string>
+    <!--       22222222222222222222222222222222222222222222222222222222222222222222222    -->
+    <string name="app_settings_watermark">水印</string>
+    <string name="app_setting_default_pen_title">预设画笔</string>
+    <string name="app_settings_about">关于</string>
+    <string name="app_settings_user_agreement">用户协议</string>
+    <string name="app_settings_privacy_policy">隐私政策</string>
+    <string name="app_settings_copyright1">柔宇科技 版权所有</string>
+    <string name="app_settings_copyright2">Copyright © 2018 Royole Corporation</string>
+    <string name="app_settings_copyright3">All Rights Reserved</string>
+    <string name="settings_defalut_signature">写在纸上，记在芯里</string>
+    <string name="settings_unlogin_nickname">未登录</string>
+    <string name="settings_login">现在登录</string>
+    <string name="login_view_enter_phone">请输入中国大陆手机号</string>
+    <string name="user_info_bind_phone_pls_input_new_phone">请输入新的手机号</string>
+    <string name="login_view_next">下一步</string>
+    <string name="server_user_info_can_not_conn_server">连接不到服务器，请稍后重试</string>
+    <string name="verify_code">验证码</string>
+    <string name="login_view_reSend">重新发送</string>
+    <string name="login_view_pls_input_mobile_verify_code_android">验证码已发送至%1$s</string>
+    <string name="login_view_reset_password_mail_android">邮件验证码已发送至%1$s，请30分钟内完成邮件验证。</string>
+    <string name="login_view_pls_set_pwd">请输入密码</string>
+    <string name="login_view_pwd_format_info">8-16位数字和字母, 区分大小写</string>
+    <string name="login_view_login_success">登录成功</string>
+    <string name="login_view_login_with_verify_code">短信验证码登录</string>
+    <string name="user_info_title">个人资料</string>
+    <string name="user_info_nickname">昵称</string>
+    <string name="user_info_sex">性别</string>
+    <string name="user_info_telephone">手机</string>
+
+    <string name="user_info_logout">退出登录</string>
+    <string name="user_info_male">男</string>
+    <string name="user_info_female">女</string>
+    <string name="user_info_sex_unknow">请选择</string>
+    <string name="user_info_phone_view_change_phone">更换手机</string>
+    <string name="user_info_email_view_bind_android">已绑定 %s</string>
+    <string name="user_info_nickname_tip">好名字可以让你的朋友更容易记住你</string>
+    <string name="user_info_nickname_empty">昵称不能为空</string>
+    <string name="user_info_nickname_change_failed">修改失败</string>
+    <string name="user_info_bind_phone_chanage_tips_android">更换手机号后，下次可使用新绑定的手机登录，当前绑定手机 %1$s 不能再登录</string>
+
+    <string name="rule_tip_word_3">注册表示同意</string>
+    <string name="rule_tip_word_4">和</string>
+    <string name="rule_tip_word_5"></string>
+    <string name="system_msg_open_storage_permission_android">请在设置中开启存储权限以使用该功能</string>
+    <string name="user_info_bind_phone_alert_already_bind">该手机号已被其他账号绑定，请更换号码重试。</string>
+    <string name="server_user_info_invalid_pwd">密码错误</string>
+    <string name="server_user_info_acount_lock">登录次数超过限制，请10分钟后再登录</string>
+    <string name="login_view_pls_input_valid_mobile">手机号码格式不正确</string>
+    <string name="server_user_info_verify_code_input_limit">验证码已失效，请重新获取验证码。</string>
+    <string name="server_user_info_verify_code_incorrect">验证码错误，请重新输入</string>
+    <string name="server_user_info_sms_over">验证码申请次数过多，请24小时后重试</string>
+    <string name="login_view_alert_login_expire">登录已过期，请重新登录</string>
+    <string name="login_view_alert_other_device">你的账号已在其他设备登录</string>
+    <string name="user_info_nickname_default">RoWriter</string>
+    <string name="user_info_bind_phone_email_alert_already_bind_got_it">知道了</string>
+    <string name="login_view_get_mobile_verify_code_success">已经发送验证码到该手机上，请查收</string>
+    <string name="login_view_pls_input_phone_verify_code_temp">已向 %s 手机发送验证码</string>
+    <string name="login_view_waring_login_for_not_chinese">暂只支持中国大陆手机号登录</string>
+    <!--     3333333333333333333333333333333333333333333333333333333333333    -->
+    <!--version 4  ############################################################################### -->
+    <string name="settings_customer_service">在线客服</string>
+    <string name="login_view_phone_login">手机登录</string>
+    <string name="login_view_email_login">邮箱登录</string>
+    <string name="login_view_enter_email">请输入邮箱</string>
+    <string name="user_info_bind_email_pls_input_new_email">请输入新的邮箱</string>
+    <string name="user_info_email">邮箱</string>
+
+    <!-- Batch Mode-->
+    <string name="notelist_selected_page_android">已选中%1$s页纸</string>
+    <string name="notelist_batch_note_android"> </string>
+    <string name="notelist_batch_notes_android"> </string>
+    <string name="notelist_alert_delete_multi_mesg_android">该操作将会删除%1$s页纸，删除后无法恢复</string>
+    <string name="notelist_merge">合并</string>
+    <string name="notelist_merge_two_pages_tips">请选择两页纸合并</string>
+    <string name="notelist_merge_alert_merge">确定要合并这两页纸吗？</string>
+    <string name="notelist_merge_note_processing">生成中</string>
+    <string name="notelist_merge_note_success">合并成功</string>
+    <string name="notelist_merge_note_failed">合并失败</string>
+    <string name="user_info_email_view_resend_activate_email">重发验证邮件</string>
+    <string name="user_info_email_view_change_email">更换邮箱</string>
+
+    <string name="user_info_phone_view_bind">已绑定 %s</string>
+
+    <string name="user_info_email_view_bind_not_activate_android">已绑定 %s (未验证)</string>
+    <string name="user_info_bind_email_tips_android">更换邮箱后，下次可使用新绑定的邮箱登录，当前绑定邮箱 %1$s 不能再登录。</string>
+    <string name="user_info_bind_email_alert_already_bind">该邮箱已被其他账号绑定，请更换邮箱重试。</string>
+    <string name="login_view_pls_input_email_verify_code_android">已向邮箱 %s 发送验证码</string>
+    <string name="user_info_email_view_send_acitvate_email_success">发送成功</string>
+    <string name="user_info_bind_email_success">绑定成功</string>
+    <string name="user_info_bind_email_failed">绑定失败</string>
+    <string name="user_info_bind_phone_success">绑定成功</string>
+    <string name="user_info_bind_phone_failed">绑定失败</string>
+    <!--user guide highlight-->
+    <string name="notelist_user_guide_multi_select_keyword">长按</string>
+    <string name="notelist_user_guide_merge_keyword">合并</string>
+    <string name="drawboard_user_guide_split_pause_keyword">暂停</string>
+    <string name="drawboard_user_guide_split_start_keyword">拆分</string>
+    <string name="drawboard_user_guide_clear_note_keyword">清空</string>
+    <string name="drawboard_user_guide_export_video_keyword">保存</string>
+    <string name="share_highlight">分享</string>
+    <string name="change_pen_view_user_guide1_keyword">笔触和颜色</string>
+    <string name="change_pen_view_user_guide2_keyword">预览</string>
+    <string name="gallery_user_guide_keyword">左右滑动</string>
+    <string name="notelist_group_page_keyword">双指捏合</string>
+    <string name="drawboard_recognition_guide1_keyword">识别</string>
+    <string name="drawboard_recognition_guide2_keyword">在纸上书写</string>
+    <string name="drawboard_recognition_guide3_keyword">设置>柔记App</string>
+    <!--user guide text-->
+    <string name="notelist_user_guide_multi_select">试试长按进入多选模式</string>
+    <string name="notelist_user_guide_merge">选中两页纸后\n激活 合并 功能</string>
+    <string name="drawboard_user_guide_split_pause">点击 暂停</string>
+    <string name="drawboard_user_guide_split_start">激活 拆分 功能</string>
+    <string name="drawboard_user_guide_export_video">保存 视频\n可分享</string>
+    <string name="share_guide_text">点击“...”可一键 分享</string>
+    <string name="change_pen_view_user_guide1">请先选择想要更换的 笔触和颜色</string>
+    <string name="change_pen_view_user_guide2">再点击 预览 效果</string>
+    <string name="gallery_user_guide">左右滑动 浏览</string>
+    <string name="notelist_group_page">使用双指捏合\n快速将多张笔记合组</string>
+    <string name="drawboard_recognition_guide1">选择 识别 功能，可转成可编辑文字</string>
+    <string name="drawboard_recognition_guide2">试试 在纸上书写\n这里会同步显示识别后的文字</string>
+    <string name="drawboard_recognition_guide3">在 设置>柔记App 里可切换识别语言\n提高识别准确率</string>
+    <!--split text-->
+    <string name="drawboard_split_pause_tips">请先暂停再拆分</string>
+    <string name="drawboard_split_stop_tips">请在想拆分的地方暂停</string>
+    <string name="drawboard_split_alert_split">确定要拆分这页纸吗？</string>
+    <string name="split_drawing_generating">生成中</string>
+    <string name="drawboard_split_success">已拆分为两页纸</string>
+    <string name="split_failed">拆分失败</string>
+
+
+    <!--Drawing Activity-->
+    <string name="write_board_state_cannot_sync_in_real_time_mode">编辑模式下，无法同步数据</string>
+    <string name="drawboard_paper_style_coming_soon">更多样式\n敬请期待</string>
+    <string name="drawboard_rubber_size">大小:%spx</string>
+    <string name="drawboard_alert_clear_all">擦除全部</string>
+    <string name="drawboard_alert_clear_all_warning">擦除全部内容？</string>
+
+    <string name="user_info_unbind">未绑定</string>
+    <string name="server_user_info_get_verify_code_too_frequently">获取验证码过于频繁，请1分钟后再试。</string>
+    <string name="drawboard_unsupport_playback">该机型暂不支持回放功能</string>
+    <string name="account_already_exist">该账户已经注册，请直接登录</string>
+
+    
+    <string name="gallery_change_pen_style">更换画笔</string>
+    <string name="gallery_delete">删除</string>
+    <string name="change_pen_view_success">更换成功</string>
+    <string name="change_pen_view_failed">更换失败</string>
+
+    <string name="social_share_current_format">当前导出格式 </string>
+    <string name="social_share_export">导出至</string>
+    <string name="social_share_select_format">选择导出格式</string>
+    <string name="social_share_jpg">JPG</string>
+    <string name="social_share_png">PNG</string>
+    <string name="social_share_pdf">PDF</string>
+    <string name="social_share_mp4">MP4</string>
+    <!--     44444444444444444444444444444444444444444444444444444444444444444444    -->
+    <!--Category-->
+    <string name="notelist_add_folder">新建</string>
+    <string name="notelist_move_to">移动至</string>
+    <string name="notelist_move_out_of_folder">移出</string>
+    <string name="notelist_already_move_to_android">已移动至%1$s</string>
+    <string name="notelist_delete_folder">该操作将会删除全部纸张，删除后无法恢复。</string>
+
+    <!--DefaultPen Activity-->
+    <string name="app_setting_default_pen_tip">* 请设置App默认画笔的笔触和颜色</string>
+    <string name="app_setting_default_pen_reset_alert">确定要恢复默认画笔设置吗？</string>
+
+    <!--ResetDrawing Activity-->
+    <string name="change_pen_view_processing">生成中…</string>
+    <string name="reset_drawing_fail">新画作创建失败，请重试。</string>
+
+    <!--Update dialog-->
+    <string name="update_dialog_find_new_version_android">发现新版本</string>
+    <string name="update_dialog_downloading_android">正在下载</string>
+    <string name="update_dialog_downloaded_android">已下载</string>
+    <string name="update_dialog_going_android">下载中</string>
+    <string name="update_dialog_success_android">下载完成</string>
+    <string name="update_dialog_start_tips_android">开始下载，请在通知栏查看进度</string>
+    <string name="update_dialog_cancel_download_android">确定要取消升级进程吗？</string>
+
+    <!-- save tips -->
+    <string name="social_share_pdf_save_path_tips_android">已保存至：</string>
+
+    <string name="write_board_state_new_page_success_in_device">设备内新建一页纸成功</string>
+    <string name="write_board_state_already_new_page_in_device">设备内已经新建一页纸</string>
+
+    <string name="facebook_app_id">150736212268328</string>
+
+    <!-- reset pwd -->
+    <string name="login_view_forget_password">忘记密码？</string>
+
+    <!-- cloud -->
+    <string name="cloud_storage_sync_content1">网络好像不给力，请检查你的网络。</string>
+    <string name="cloud_storage_sync_content2">前往设置</string>
+    <string name="cloud_storage_sync_content3">Oops ! 服务器忙不过来了，稍后再试试。</string>
+    <string name="cloud_storage_sync_content5">已达到容量上限，自动同步失败。</string>
+    <string name="cloud_storage_sync_content6">忽略</string>
+    <string name="cloud_storage_sync_content7">可用存储空间不足，你可以在“设置”中管理存储空间。</string>
+    <string name="cloud_storage_sync_content9">编辑</string>
+
+    <string name="cloud_storage_sync_content10">云空间存储不足，你需要清理空间</string>
+    <string name="cloud_storage_sync_content11">云同步失败，请稍后重试。</string>
+    <string name="cloud_storage_sync_content12">云同步成功</string>
+    <string name="cloud_storage_sync_content13">%1$s</string>
+    <string name="cloud_storage_sync_content14">笔记正在上传至云端，稍后再试试。</string>
+    <string name="cloud_storage_automatic_sync">开启云同步</string>
+    <string name="cloud_storage_automatic_sync_cloud_keyword2">笔记自动上传至云端</string>
+    <string name="cloud_storage_WiFi_only_sync_on">仅在WiFi连接时自动同步</string>
+
+    <string name="cloud_storage_WiFi_only_sync_off">关闭此选项后，自动同步可以在移动网络下进行。</string>
+
+    <string name="cloud_storage_automatic_sync_features">自动同步功能</string>
+    <string name="cloud_storage_automatic_sync_cloud_keyword1">你的笔记将自动上传并存储至云端</string>
+    <string name="cloud_storage_turn_on_sync">开启同步</string>
+    <string name="cloud_storage_turn_off_sync">暂不同步</string>
+
+    <!-- pen -->
+    <string name="app_setting_default_pen_attributes">设置同步到app的默认画笔笔触和颜色</string>
+    <string name="app_setting_default_pen">钢笔</string>
+    <string name="app_setting_default_pencil">铅笔</string>
+    <string name="app_setting_default_marker">马克笔</string>
+    <string name="app_setting_default_brush">毛笔</string>
+
+    <!-- cloud sync toast -->
+    <string name="server_user_info_acount_log_in_first">请先登录</string>
+
+    <!-- write recognition-->
+    <string name="app_setting_recognition_language">识别语言</string>
+    <string name="app_setting_recognition_language_tip">设置识别的语言</string>
+    <string name="app_setting_recognition_language_Chinese">中文（简体）</string>
+    <string name="app_setting_recognition_language_English_us">English (U.S.)</string>
+    <string name="app_setting_recognition_language_English_uk">English (U.K.)</string>
+    <string name="drawboard_recognition_writing_tip">为提高识别准确性，请尽量水平、规范书写</string>
+    <string name="drawboard_recognition_close_window_title">手写识别功能</string>
+    <string name="drawboard_recognition_close_window_detail">需和柔记手写本绑定使用</string>
+    <string name="drawboard_recognition_close_window_keyword">柔记手写本</string>
+    <string name="drawboard_recognition_close_window_button">了解柔记手写本</string>
+
+    <string name="app_setting_recognition_language_English_traditional_chinese">中文（繁体）</string>
+    <string name="app_setting_recognition_language_English_german">Deutsch</string>
+    <string name="app_setting_recognition_language_English_spanish">Español</string>
+    <string name="app_setting_recognition_language_English_french">Français</string>
+    <string name="app_setting_recognition_language_English_italian">Italiano</string>
+    <string name="app_setting_recognition_language_English_dutch">Nederlands</string>
+    <string name="app_setting_recognition_language_update">更新</string>
+    <string name="app_setting_recognition_language_delete_doublecheck">确认删除？下次使用该语言时需要重新下载。</string>
+    <string name="app_setting_recognition_language_download_failure">下载失败，请重新下载。</string>
+    <string name="app_setting_recognition_language_downloading">请等待当前下载完成</string>
+    <string name="app_setting_recognition_language_download_data">确认使用流量下载语言包吗？</string>
+
+
+    <string name="drawboard_recognition_copy">复制全文</string>
+    <string name="drawboard_recognition_copy_wechat">&#160;复制到“微信”</string>
+    <string name="drawboard_recognition_pdf">导出为PDF</string>
+    <string name="drawboard_recognition_txt">导出为TXT</string>
+    <string name="drawboard_recognition_copy_succeed">复制成功</string>
+    <string name="drawboard_recognition_no_network">识别功能暂时无法使用。前往设置开启网络，可重新激活识别功能。</string>
+    <string name="drawboard_recognition_go_to_settings">前往设置</string>
+    <string name="drawboard_recognition_ignore">暂时忽略</string>
+    <string name="drawboard_recognition_gallery_toast">请退出当前界面再新建一页纸</string>
+    <string name="drawboard_recognition_failure_toast">识别出错了，请重新试试。</string>
+    <string name="drawboard_recognition_loading_toast">正在识别中，请稍后再试试。</string>
+    <string name="drawboard_recognition_loading_reminder">正在识别中…</string>
+    <string name="drawboard_recognition_reset">确认重新识别手写内容？对之前识别结果的修改记录将会丢失。</string>
+    <string name="drawboard_recognition_loading_cancel_reminder">正在停止识别，请稍候…</string>
+    <string name="social_share_copy_link">复制链接</string>
+    <string name="social_share_copy_link_ok">链接复制成功</string>
+    <string name="social_share_video">动画</string>
+    <string name="drawboard_recognition_change_language_off">不再提示</string>
+    <string name="drawboard_recognition_change_language">切换识别语言后，会重新对笔记进行识别。</string>
+    <string name="drawboard_paper_style_take_photo">拍照</string>
+    <string name="drawboard_paper_style_photo_album">从相册中选择</string>
+    <string name="drawboard_paper_style_retake">重拍</string>
+    <string name="drawboard_paper_style_use_photo">使用照片</string>
+
+
+    <!--第三方账号登录start-->
+    <string name="login_view_phone_login_button">手机登录</string>
+    <string name="login_view_email_login_button">邮箱登录</string>
+    <string name="user_info_account_bind">账号绑定</string>
+    <string name="user_info_account_bind_login">绑定以下账号，可以用他们直接登录柔记</string>
+    <string name="user_info_wechat_account_unbind">微信</string>
+    <string name="user_info_QQ_account_unbind">QQ</string>
+    <string name="user_info_Facebook_account_unbind1">Facebook</string>
+    <string name="user_info_Google_account_unbind1">Google</string>
+    <string name="user_info_account_modify">修改</string>
+    <string name="user_info_go_bind">去绑定</string>
+    <string name="user_info_bound">已绑定</string>
+    <string name="user_info_account_download_wechat">请先下载微信</string>
+    <string name="user_info_account_download_qq">请先下载QQ</string>
+    <string name="user_info_account_download_facebook">请先下载Facebook</string>
+    <string name="user_info_account_download_google">请先下载Google App</string>
+    <string name="user_info_phone_view_bind_phone">绑定手机</string>
+    <string name="login_view_phone_bind">绑定手机</string>
+    <string name="login_view_email_bind">绑定邮箱</string>
+    <string name="login_view_login_with_phone_verify">手机号验证</string>
+    <string name="login_view_pls_email_verify_code_android">邮箱验证</string>
+    <string name="user_info_account_bind_login_android">确定要解除%s账号的绑定吗?</string>
+    <string name="user_info_bind_account_change_tips1">该账号已绑定，请解绑后操作</string>
+    <string name="login_view_logging">登录中…</string>
+    <!--第三方账号登录end-->
+
+    <!--h5-->
+    <string name="system_msg_networking_error">网络连接出现了点小问题，请重试</string>
+    <string name="h5_share_content1">%s的笔记</string>
+    <string name="h5_share_content2">快来柔记一起添加创意吧</string>
+    <string name="h5_share_content3">写在纸上 记在芯里</string>
+    <string name="h5_view_login_share">请先登录，可分享给更多好友</string>
+    <string name="H5_share_content7">分享成功</string>
+    <!--h5-->
+    <!--保存多张图片-->
+    <string name="social_share_save_multi_img_android">保存%1$s张图片</string>
+    <string name="social_share_pdf_more_android">发送PDF至</string>
+    <string name="social_share_png_more">发送PNG至</string>
+    <string name="social_share_jpg_more">发送JPG至</string>
+    <!--保存多张图片-->
+
+    <!--印象笔记 autor YB-->
+    <string name="drawboard_recognition_copy_Evernote">复制到“印象笔记”</string>
+    <!--印象笔记 autor YB-->
+
+    <!--v1.8安全连接-->
+    <string name="board_settings_view_band_device_name">设备名称</string>
+    <string name="board_settings_view_change_band_device_name">更换设备名称</string>
+    <string name="board_settings_view_bluetooth_search_device">设备名称用于蓝牙搜索设备时显示</string>
+    <string name="board_settings_view_change_band_device_psd">重置设备连接密码</string>
+    <string name="board_settings_view_device_connection_mode">连接模式</string>
+
+    <string name="board_settings_device_list_connect_successful">连接成功</string>
+    <string name="board_settings_device_list_connect_name">请输入设备连接名</string>
+    <string name="board_settings_device_list_connect_name_tip">输入设备名称，请输入一个好认的设备名称</string>
+    <string name="board_settings_device_list_disconnect_tip">解除绑定</string>
+    <string name="board_settings_device_list_disconnect_tip1">设备已解除绑定</string>
+    <string name="board_settings_device_list_disconnect_tip2">已开启私人模式，请联系主人解绑</string>
+
+    <string name="app_settings_mode_selection">请选择设备模式</string>
+    <string name="app_settings_public_mode_title">公共模式</string>
+    <string name="app_settings_public_mode_title_tip1">任何人都可连接</string>
+    <string name="app_settings_private_mode_title">私人模式</string>
+    <string name="app_settings_private_mode_title_tip2">只允许主人连接</string>
+    <string name="app_settings_private_mode_start_title1">输入原密码</string>
+    <string name="app_settings_private_mode_start">设备已开启私人模式</string>
+    <string name="app_settings_private_mode_connect_password">请输入6位数字连接密码</string>
+    <string name="app_settings_private_mode_set_new_psd">请输入6个中文或18个字母</string>
+    <string name="app_settings_private_mode_title2">开启私人模式</string>
+    <string name="app_settings_private_mode_start_title3">设置新密码</string>
+    <string name="app_settings_public_mode_start">设备已开启公共模式</string>
+    <string name="app_settings_private_mode_enter_original_psd">请输入原6位数字密码</string>
+    <string name="app_settings_private_mode_enter_new_password">请输入6位数字新密码</string>
+    <string name="app_settings_private_mode_set_psd_tip">他人手机连接该设备时需输入密码方可访问</string>
+    <string name="app_settings_private_mode_forget_psd">忘记连接密码</string>
+    <string name="app_settings_private_mode_reset_device">可以通过用针状物顶重置孔的方式重置设备</string>
+    <string name="app_settings_private_mode_reset_device_tip">注意，重置设备后，手写本内存储的内容将被清空，已传输进手机内的内容安全。</string>
+
+    <string name="server_user_info_invalid_pwd_retype">密码错误，请重新输入</string>
+    <string name="server_user_info_invalid_pwd_retry">连续输错三次，请15分钟后重试</string>
+    <string name="server_user_info_invalid_pwd_reset">新密码设置成功</string>
+    <string name="server_user_info_time_limitation_psd">请在2分钟内输入密码</string>
+    <string name="board_settings_dfu_view_new_version_alert_clear_mesg">此动作会清除当前手写本硬件设备上存储的笔记内容.</string>
+    <!--v1.8安全连接-->
+
+    <string name="server_user_info_view_update_now">系统更新</string>
+    <string name="server_user_info_view_update_content">升级的具体内容</string>
+
+    <!--首页Tab start-->
+    <string name="notelist_home_homepage_name">笔记</string>
+    <string name="notelist_home_store_name">商城</string>
+    <string name="notelist_home_me_name">我的</string>
+    <!--首页Tab end-->
+
+    <!--个人中心-->
+    <string name="cloud_storage_sync_content16">云空间</string>
+    <string name="settings_unlogin_title">未登录</string>
+    <string name="settings_card_purchase_rowrite">购买柔记手写本</string>
+    <string name="settings_card_convert_text_vip">开启专属手写识别特权</string>
+    <string name="settings_card_upgrade_vip_member">立即购买</string>
+    <string name="system_msg_networking_error_tips">网络异常，请稍后再试</string>
+    <!--个人中心-->
+
+    <!--排序时间轴 -->
+    <string name="notelist_default_sort">默认排序</string>
+    <string name="notelist_default_sort_ascending_order">时间从远到近</string>
+    <string name="notelist_default_sort_descending_order">时间从近到远</string>
+    <string name="notelist_dafault_page_name_Monday">星期一</string>
+    <string name="notelist_dafault_page_name_Tuesday">星期二</string>
+    <string name="notelist_dafault_page_name_Wednesday">星期三</string>
+    <string name="notelist_dafault_page_name_Thursday">星期四</string>
+    <string name="notelist_dafault_page_name_Friday">星期五</string>
+    <string name="notelist_dafault_page_name_Saturday">星期六</string>
+    <string name="notelist_dafault_page_name_Sunday">星期日</string>
+    <string name="notelist_dafault_page_name_Jan">1月</string>
+    <string name="notelist_dafault_page_name_Feb">2月</string>
+    <string name="notelist_dafault_page_name_Mar">3月</string>
+    <string name="notelist_dafault_page_name_Apr">4月</string>
+    <string name="notelist_dafault_page_name_May">5月</string>
+    <string name="notelist_dafault_page_name_Jun">6月</string>
+    <string name="notelist_dafault_page_name_Jul">7月</string>
+    <string name="notelist_dafault_page_name_Aug">8月</string>
+    <string name="notelist_dafault_page_name_Sept">9月</string>
+    <string name="notelist_dafault_page_name_Oct">10月</string>
+    <string name="notelist_dafault_page_name_Nov">11月</string>
+    <string name="notelist_dafault_page_name_Dec">12月</string>
+    <string name="notelist_dafault_page_name_today">今天</string>
+    <string name="notelist_dafault_page_name_yesterday">昨天</string>
+
+
+</resources>

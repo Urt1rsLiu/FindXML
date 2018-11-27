@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="notelist_search_bar_default">Nach Seitennamen oder -inhalt suchen</string>
+  <string name="notelist_search_bar_result_all_title_android">Alle</string>
+  <string name="notelist_search_bar_no_result">Keine Suchergebnisse</string>
+  <string name="notelist_default_sort_calendar_format_ym">MMMM yyyy</string>
+  <string name="write_board_state_sync_alert_info_mutil_pages_android">%d Seiten nicht synchronisiert.</string>
+  <string name="update_dialog_find_new_version_downloading">Download läuft…</string>
+  <string name="notelist_search_bar_result_all_android">Alle (%d)</string>
+  <string name="update_dialog_find_new_version_android">Neue Version</string>
+  <string name="social_share_more_video_limit">Sie können nur neun Videos gleichzeitig freigeben.</string>
+  <string name="notelist_default_sort_calendar">Nach Datum filtern</string>
+  <string name="H5_share_content1_page_temp">(1 Seite)</string>
+  <string name="notelist_default_sort_calendar_search_button">Suchen</string>
+  <string name="notelist_search_bar_history">Suchverlauf</string>
+  <string name="H5_share_content1_pages_android">(%1$s Seiten)</string>
+  <string name="write_board_state_sync_alert_info_1page_android">%d Seite nicht synchronisiert.</string>
+  <string name="write_board_state_bond_device_successfully_temp">RoWrite223\' erfolgreich gekoppelt</string>
+  <string name="notelist_search_bar_result_all_ios">Alle (%@)</string>
+  <string name="notelist_default_sort_calendar_Tuesday">Di</string>
+  <string name="notelist_default_sort_calendar_Wednesday">Mi</string>
+  <string name="notelist_default_sort_calendar_filter_result_all">Alle Seiten anzeigen</string>
+  <string name="notelist_search_bar_result_page_name_android">Seitenname (%d)</string>
+  <string name="notelist_default_sort_calendar_Saturday">Sa</string>
+  <string name="notelist_search_bar_result_page_content_android">Seiteninhalt (%d)</string>
+  <string name="notelist_default_sort_calendar_start">Kein Anfangsdatum ausgewählt</string>
+  <string name="notelist_search_bar_result_page_name_ios">Seitenname (%@)</string>
+  <string name="notelist_default_sort_calendar_Sunday">So</string>
+  <string name="notelist_search_bar_result_page_content_ios">Seiteninhalt (%@)</string>
+  <string name="notelist_search_bar_result_page_name_title_android">Seitenname</string>
+  <string name="write_board_state_bond_device_successfully_ios">%@\' erfolgreich gekoppelt</string>
+  <string name="notelist_default_sort_calendar_end">Kein Enddatum ausgewählt</string>
+  <string name="cloud_storage_sync_content13">%1$s</string>
+  <string name="H5_share_content1_pages_ios">(%ld Seiten)</string>
+  <string name="notelist_default_sort_calendar_format_ymd">dd. MM yyyy</string>
+  <string name="notelist_search_bar_result_page_content_title_android">Seiteninhalt</string>
+  <string name="notelist_default_sort_calendar_Friday">Fr</string>
+  <string name="notelist_default_sort_calendar_Monday">Mo</string>
+  <string name="notelist_default_sort_calendar_Thursday">Do</string>
+</resources>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <string name="app_name">RoWrite</string>
+    <string name="board_settings_device_list_connect">Verbinden</string>
+    <string name="board_settings_guide_no">Later verbinden</string>
+    <string name="board_settings_guide_skip">Overslaan</string>
+    <string name="board_settings_scan_device_title">Apparaat scannen</string>
+    <string name="board_settings_device_list_connecting">Bezig met verbinden</string>
+    <string name="board_settings_guide_yes">Ja</string>
+    <string name="common_complete">Klaar</string>
+    <string name="system_msg_no_network">Huidig netwerk is niet beschikbaar</string>
+    <string name="board_settings_view_battery">Batterij van apparaat</string>
+    <string name="board_settings_dfu_view_title">Firmware-update</string>
+    <string name="app_settings_check_app_version_android">Controleren op nieuwe versie</string>
+    <string name="board_settings_view_change_band_device">Apparaat wijzigen</string>
+    <string name="notelist_bg_empty_text">Hallo. Welkom bij RoWrite\nBegin nu met creëren!</string>
+    <string name="app_settings_current_app_version_android">Huidige versie &#160;v%s</string>
+    <!-- <string name="dfu_update_title">固件升级</string> -->
+    <string name="app_settings_checking_app_version">Controleren op updates</string>
+    <string name="app_settings_new_app_version_available_android">Nieuwe app-versie &#160;%s is beschikbaar.</string>
+    <string name="board_settings_dfu_view_new_version_android">Nieuwe firmwareversie &#160;%s beschikbaar</string>
+    <string name="board_settings_dfu_view_update_now">Nu bijwerken</string>
+    <string name="app_settings_new_app_version_already_android">Uw app is bijgewerkt naar V%s</string>
+    <string name="board_settings_dfu_view_already_latest_android">Firmware is bijgewerkt naar v%s</string>
+    <string name="board_settings_dfu_view_updating">Firmware wordt bijgewerkt…\nZorg ervoor dat het apparaat is verbonden.</string>
+    <string name="app_settings_update_downloading_android">App wordt gedownload…</string>
+    <string name="board_settings_dfu_view_downloading">Firmware wordt gedownload…</string>
+    <string name="board_settings_dfu_view_update_success">Bijwerken geslaagd</string>
+    <string name="board_settings_dfu_view_update_failed">Bijwerken mislukt</string>
+    <string name="board_settings_guide_tips">Hoi. Heeft u een RoWrite-apparaat?</string>
+    <string name="notelist_double_click_exit_android">Raak nogmaals aan om de app te verlaten</string>
+    <string name="notelist_rename_view_rename">Naam</string>
+    <string name="drawboard_set_pen_line_width_android">Breedte:%spx</string>
+    <string name="drawboard_set_pen_line_alpha_android">Opaciteit:%s</string>
+    <string name="notelist_alert_delete_mesg">De pagina zal permanent worden verwijderd</string>
+    <string name="gallery_delete_alert_msg">Huidige pagina zal permanent worden verwijderd.</string>
+    <string name="common_cancel">Annuleren</string>
+    <string name="common_ok">OK</string>
+    <string name="board_settings_dfu_view_not_wifi_tip_still_title">Herinnering</string>
+    <string name="save_tips">是否保存修改后的笔记属性</string>
+    <string name="notelist_rename_view_name_nil">Naam mag niet leeg zijn</string>
+    <string name="write_board_state_sync_no_pages">Geen pagina op apparaat</string>
+    <string name="settings_no_connect">Verbinding verbroken</string>
+    <string name="notelist_device_no_connect_tips">Verbind uw apparaat</string>
+    <string name="board_settings_device_list_bind_device">绑定设备</string>
+    <string name="board_settings_device_list_connect_failed">Verbinding maken mislukt. Probeer het opnieuw.</string>
+    <string name="write_board_state_did_connect">Apparaat verbonden</string>
+    <string name="write_board_state_did_disconnect">Verbinding apparaat verbroken</string>
+    <string name="write_board_state_sync_alert_syncing">Pagina wordt gesynchroniseerd</string>
+    <string name="drawboard_alert_new_page_success">Nieuwe pagina aangemaakt</string>
+    <string name="drawboard_already_new_page">Nieuwe pagina bestaat al</string>
+    <string name="board_settings_dfu_view_not_wifi_tip_message">Wifi-netwerk is niet beschikbaar. De nieuwste versie downloaden met mobiele data?</string>
+    <string name="app_settings_new_app_version_download_failed">Downloaden mislukt. Probeer het opnieuw!</string>
+    <string name="drawboard_tip_no_write">Kan niet worden herhaald - geen inhoud op de pagina</string>
+    <string name="notelist_default_painting_name">Pagina</string>
+    <!--        11111111111111111111111111111111111111111111111111111111111111111111111111111     -->
+
+    <string name="share_to">Exporteren naar</string>
+    <string name="board_settings_device_list_alert_disconnect_tip">Verbinding gekoppeld apparaat verbreken？</string>
+    <string name="write_board_state_low_power">Batterij bijna leeg. Laad op</string>
+    <string name="write_board_state_out_of_disk">Apparaatopslag is bijna vol</string>
+    <string name="write_board_state_disk_full">Apparaatopslag is vol</string>
+    <string name="write_board_state_sync_alert_info_1page_android">%1$s pagina niet gesynchroniseerd. Geschatte tijd is %2$s.</string>
+    <string name="write_board_state_sync_alert_info_mutil_pages_android">%1$s pagina\'s niet gesynchroniseerd. Geschatte tijd is %2$s.</string>
+    <string name="write_board_state_sync_alert_format_time_sec_android">%ss</string>
+    <string name="write_board_state_sync_alert_format_time_min_android">%1$s min. en %2$s s.</string>
+    <string name="board_settings_view_alert_clear">Cache van apparaat wissen</string>
+    <string name="board_settings_alert_clear_mesg">Hiermee worden alle op de RoWrite opgeslagen pagina\'s verwijderd - doorgaan?</string>
+    <string name="board_settings_clear_now">Bezig met wissen...</string>
+    <string name="board_settings_clear_success">Voltooid</string>
+    <string name="board_settings_scan_device_scan_mesg">Scan de streepjescode aan de achterkant van de RoWrite om te koppelen.</string>
+    <string name="board_settings_scan_device_scan_error">Controleer of het apparaat aan staat.</string>
+    <string name="app_settings_store_title">Winkel</string>
+    <string name="board_settings_scan_device_camera_permission_tips">\'RoWrite\'toestemming geven om camera te openen？</string>
+    <string name="board_settings_device_list_alert_disconnect">Verbinding apparaat verbreken</string>
+    <string name="board_settings_device_list_connect_tips">Controleer of uw apparaat aanstaat.</string>
+    <string name="drawboard_alert_clear_warning">Inhoud op de pagina wissen?</string>
+    <string name="drawboard_saving_note_android">Bezig met opslaan…</string>
+    <string name="write_board_state_sync_error_android">Let op synchronisatiegegevensfout op pagina %s!</string>
+    <string name="drawboard_loading_note_android">Bezig met laden…</string>
+    <string name="board_settings_device_list_title">Apparaatlijst</string>
+
+
+    <string name="social_share_moment">Momenten</string>
+    <string name="social_share_friend">Vrienden</string>
+    <string name="social_share_10s_video">10s korte video</string>
+    <string name="social_share_original_video">Complete video</string>
+    <string name="app_notlist_share_facebook">Facebook</string>
+    <string name="app_notlist_share_messenger">Messenger</string>
+    <string name="app_notlist_share_instagram">Instagram</string>
+    <string name="social_share_save_img">Opslaan</string>
+    <string name="social_share_save_pdf">Opslaan</string>
+    <string name="social_share_more">Meer</string>
+    <string name="social_share_img_saved">Opgeslagen naar album</string>
+    <string name="export_video_10s_video">Korte video van 10 seconden opslaan</string>
+    <string name="export_video_normal_video">Originele video opslaan</string>
+    <string name="export_video_alert_exporting">Video wordt opgeslagen...</string>
+    <string name="export_video_completed">Opgeslagen naar album</string>
+    <string name="export_video_no_space">Opslaan van video mislukt. Niet voldoende opslag.</string>
+    <string name="export_video_export_error">Opslaan van video mislukt</string>
+    <string name="system_msg_open_storage_camera_permission_android">Schakel toegang tot de opslag en de camera in de instellingen in om de functie te gebruiken</string>
+    <string name="system_msg_open_camera_permission_android">Schakel toegang tot de camera in de instellingen in om de functie te gebruiken</string>
+    <string name="board_settings_no_clear_content">Geen pagina om te wissen</string>
+    <!--  2  -->
+    <string name="settings_writeboard">RoWrite-apparaat</string>
+    <string name="settings_rowrite_app">RoWrite-app</string>
+    <string name="settings_rowrite_guide">Instructies</string>
+    <string name="settings_feedback">Feedback</string>
+    <string name="settings_feedback_placeholder">Geef uw feedback om RoWrite beter te verbeteren</string>
+    <string name="settings_feedback_submit">Klaar</string>
+    <string name="settings_feedback_success">Hartelijk dank voor uw advies!</string>
+    <string name="settings_feedback_less_content">Voer meer dan 4 tekens in</string>
+    <string name="settings_feedback_more_content">Voer maximaal 1000 tekens in</string>
+    <!--        22222222222222222222222222222222222222222222222222222222222222222222222     -->
+    <string name="app_settings_watermark">Watermerk</string>
+    <string name="app_setting_default_pen_title">Standaard kwast</string>
+    <string name="app_settings_about">Over</string>
+    <string name="app_settings_user_agreement">gebruikersovereenkomst</string>
+    <string name="app_settings_privacy_policy">privacybeleid</string>
+    <string name="app_settings_copyright1">©2018 Royole Corporation. Het Royole logo, </string>
+    <string name="app_settings_copyright2">Royole en RoWrite zijn geregistreerde handelsmerken</string>
+    <string name="app_settings_copyright3">van Royole Corporation. Alle rechten voorbehouiden.</string>
+    <string name="settings_defalut_signature">Maak aan. Leg vast. Deel.</string>
+    <string name="settings_unlogin_nickname">RoWrite</string>
+    <string name="settings_login">Log in</string>
+    <string name="login_view_enter_phone">Voer China vaste landlijn in </string>
+    <string name="user_info_bind_phone_pls_input_new_phone">Voer nieuw telefoonnummer in</string>
+    <string name="login_view_next">Volgende</string>
+    <string name="server_user_info_can_not_conn_server">Verbinden met server mislukt. Probeer het later.</string>
+    <string name="verify_code">Verificatiecode</string>
+    <string name="login_view_reSend">Opnieuw verzenden</string>
+    <string name="login_view_pls_input_mobile_verify_code_android">Voer de verificatiecode in die u heeft ontvangen van %1$s.</string>
+    <string name="login_view_reset_password_mail_android">Verificatiecode is verstuurd naar e-mail %1$s. Voltooi het verificatieproces a.u.b. in 30 minuten.</string>
+    <string name="login_view_pls_set_pwd">Voer wachtwoord in</string>
+    <string name="login_view_pwd_format_info">8 tot 16 cijfers en letters.</string>
+    <string name="login_view_login_success">Inloggen geslaagd</string>
+    <string name="login_view_login_with_verify_code">SMS-verificatie</string>
+    <string name="user_info_title">Profiel</string>
+    <string name="user_info_nickname">Bijnaam</string>
+    <string name="user_info_sex">Geslacht</string>
+    <string name="user_info_telephone">Telefoon</string>
+
+    <string name="user_info_logout">Uitloggen</string>
+    <string name="user_info_male">Man</string>
+    <string name="user_info_female">Vrouw</string>
+    <string name="user_info_sex_unknow">Onbekend</string>
+    <string name="user_info_phone_view_change_phone">Telefoon wijzigen</string>
+    <string name="user_info_email_view_bind_android">Geassocieerde E-mail %s</string>
+    <string name="user_info_nickname_tip">Met een goede naam kunnen uw vrienden u makkelijker herinneren.</string>
+    <string name="user_info_nickname_empty">Bijnaam mag niet leeg zijn</string>
+    <string name="user_info_nickname_change_failed">Hernoemen mislukt</string>
+    <string name="user_info_bind_phone_chanage_tips_android">Nadat u van telefoonnummer bent veranderd, gebruikt u dat om de volgende keer in te loggen. Voorheen geassocieerde telefoonnummer %1$s kan niet meer worden gebruikt om in te loggen.</string>
+
+    <string name="rule_tip_word_3">Door te registreren, gaat u akkoord met Royole\'s&#160;</string>
+    <string name="rule_tip_word_4"> &#160;en&#160;</string>
+    <string name="rule_tip_word_5">.</string>
+    <string name="system_msg_open_storage_permission_android">Schakel toegang tot de opslag in de instellingen in om de functie te gebruiken</string>
+    <string name="user_info_bind_phone_alert_already_bind">Dit telefoonnummer is reeds geassocieerd met een ander account. Probeer een ander telefoonnummer.</string>
+    <string name="server_user_info_invalid_pwd">Onjuist wachtwoord</string>
+    <string name="server_user_info_acount_lock">Maximaal aantal inlogpogingen overschreden. Probeer het over 10 minuten opnieuw.</string>
+    <string name="login_view_pls_input_valid_mobile">Onjuiste telefoonindeling</string>
+    <string name="server_user_info_verify_code_input_limit">Verificatiecode verlopen. Krijg a.u.b. een nieuwe verificatiecode.</string>
+    <string name="server_user_info_verify_code_incorrect">Onjuiste verificatiecode. Voer opnieuw in.</string>
+    <string name="server_user_info_sms_over">Bericht met verificatiecode is te vaak verzonden. Probeer het na 24 uur opnieuw.</string>
+    <string name="login_view_alert_login_expire">Login verlopen. Log opnieuw in.</string>
+    <string name="user_info_nickname_default">undefined</string>
+    <string name="user_info_bind_phone_email_alert_already_bind_got_it">Ontvangen</string>
+    <string name="login_view_get_mobile_verify_code_success">Verificatiecode is via sms verzonden naar dit telefoonnummer - controleer dit.</string>
+    <string name="login_view_pls_input_phone_verify_code_temp">Verificatiecode is verstuurd naar telefoon %1$s.</string>
+    <string name="login_view_waring_login_for_not_chinese">Alleen vaste telefoonlijnen in China worden ondersteund om mee in te loggen</string>
+    <!--      3333333333333333333333333333333333333333333333333333333333333     -->
+    <!-- version 4  ###############################################################################  -->
+    <string name="settings_customer_service">Contact</string>
+    <string name="login_view_phone_login">Telefoon</string>
+    <string name="login_view_email_login">Email</string>
+    <string name="login_view_enter_email">Voer e-mailadres in</string>
+    <string name="user_info_bind_email_pls_input_new_email">Voer een nieuw e-mailadres in</string>
+    <string name="user_info_email">E-mail</string>
+
+    <!--  Batch Mode -->
+    <string name="notelist_selected_page_android">%1$s</string>
+    <string name="notelist_batch_note_android">&#160;pagina </string>
+    <string name="notelist_batch_notes_android">&#160;pagina\'s </string>
+    <string name="notelist_alert_delete_multi_mesg_android">%1$s zullen permanent worden verwijderd</string>
+    <string name="notelist_merge">Samenvoegen</string>
+    <string name="notelist_merge_two_pages_tips">Selecteer twee pagina\'s om samen te voegen</string>
+    <string name="notelist_merge_alert_merge">Deze twee pagina\'s samenvoegen?</string>
+    <string name="notelist_merge_note_processing">Bezig met genereren…</string>
+    <string name="notelist_merge_note_success">Samenvoegen van pagina\'s geslaagd</string>
+    <string name="notelist_merge_note_failed">Samenvoegen van pagina\'s mislukt</string>
+    <string name="user_info_email_view_resend_activate_email">Verificatie-e-mail opnieuw verzenden</string>
+    <string name="user_info_email_view_change_email">E-mailadres wijzigen</string>
+    <string name="user_info_phone_view_bind">Geassocieerde telefoon %s</string>
+    <string name="user_info_email_view_bind_not_activate_android">Geassocieerde E-mail %s (Niet bevestigd)</string>
+    <string name="user_info_bind_email_tips_android">Nadat u van e-mailadres bent veranderd, gebruikt u dat om de volgende keer in te loggen. Het huidig geassocieerde e-mailadres %1$s kan niet meer worden gebruikt om in te loggen.</string>
+    <string name="user_info_bind_email_alert_already_bind">Dit e-mailadres is reeds geassocieerd met een ander account. Probeer het opnieuw.</string>
+    <string name="login_view_pls_input_email_verify_code_android">De verificatiecode is verzonden naar %s.</string>
+    <string name="user_info_email_view_send_acitvate_email_success">E-mail verzonden</string>
+    <string name="user_info_bind_email_success">Associatie geslaagd</string>
+    <string name="user_info_bind_email_failed">Associatie mislukt</string>
+    <string name="user_info_bind_phone_success">Associatie geslaagd</string>
+    <string name="user_info_bind_phone_failed">Associatie mislukt</string>
+    <!-- user guide highlight -->
+    <string name="notelist_user_guide_multi_select_keyword">Houd ingedrukt</string>
+    <string name="notelist_user_guide_merge_keyword">samenvoegen</string>
+    <string name="drawboard_user_guide_split_pause_keyword">pauzeren</string>
+    <string name="drawboard_user_guide_split_start_keyword">splitsen</string>
+    <string name="drawboard_user_guide_clear_note_keyword">Wissen</string>
+    <string name="drawboard_user_guide_export_video_keyword">opslaan</string>
+    <string name="share_highlight">分享</string>
+    <string name="change_pen_view_user_guide1_keyword">lijn en kleur</string>
+    <string name="change_pen_view_user_guide2_keyword">bekijken</string>
+    <string name="gallery_user_guide_keyword">Naar links/rechts vegen</string>
+    <string name="notelist_group_page_keyword">Pinch</string>
+    <string name="drawboard_recognition_guide1_keyword">Convert to Text</string>
+    <string name="drawboard_recognition_guide2_keyword">op papier schrijft</string>
+    <string name="drawboard_recognition_guide3_keyword">Instellingen>RoWrite App</string>
+    <!-- user guide text -->
+    <string name="notelist_user_guide_multi_select">Houd ingedrukt\nom meerdere pagina\'s te selecteren</string>
+    <string name="notelist_user_guide_merge">Selecteer twee\nPagina\'s en klik\nsamenvoegen</string>
+    <string name="drawboard_user_guide_split_pause">Tik om de video te pauzeren</string>
+    <string name="drawboard_user_guide_split_start">Druk op het pictogram splitsen</string>
+    <string name="drawboard_user_guide_export_video">De video opslaan om te delen!</string>
+    <string name="share_guide_text">点击“...”可一键 分享</string>
+    <string name="change_pen_view_user_guide1">Selecteer de lijn en kleur die u wilt vervangen</string>
+    <string name="change_pen_view_user_guide2">Tik om uw wijzigingen\nte bekijken</string>
+    <string name="gallery_user_guide">Naar links/rechts vegen om te bekijken</string>
+    <string name="notelist_group_page">Om meerdere pagina\'s te groeperen,\ndrukt u op de 2 Pagina\'s en dan op Pinch</string>
+    <string name="drawboard_recognition_guide1">Convert to Text\nzet handschrift om in\ngetypte tekst</string>
+    <string name="drawboard_recognition_guide2">Naargelang u op papier schrijft\nworden uw woorden omgezet in getypte tekst</string>
+    <string name="drawboard_recognition_guide3">Selecteer uw schrijftaal in Instellingen>RoWrite App om de nauwkeurigheid van de conversie te verhogen.</string>
+    <!-- split text -->
+    <string name="drawboard_split_pause_tips">Pauzeer de video en druk op het pictogram Splitsen</string>
+    <string name="drawboard_split_stop_tips">Pauzeer de video waar u de pagina wilt splitsen</string>
+    <string name="drawboard_split_alert_split">Deze pagina splitsen?</string>
+    <string name="split_drawing_generating">Bezig met genereren</string>
+    <string name="drawboard_split_success">Splitsen van pagina geslaagd</string>
+    <string name="split_failed">拆分失败</string>
+
+
+    <!-- Drawing Activity -->
+    <string name="write_board_state_cannot_sync_in_real_time_mode">U kunt geen gegevens synchroniseren in bewerkingsmodus</string>
+    <string name="drawboard_paper_style_coming_soon">Binnenkort\nmeer stijlen</string>
+    <string name="drawboard_rubber_size">Gumgrootte:%spx</string>
+    <string name="drawboard_alert_clear_all">Wis inhoud</string>
+    <string name="drawboard_alert_clear_all_warning">OK om de inhoud van de pagina te wissen?</string>
+
+    <string name="user_info_unbind">Niet geassocieerd</string>
+    <string name="server_user_info_get_verify_code_too_frequently">Verificatiecode onbeschikbaar. Wacht a.u.b. 1 minuut en probeer opnieuw.</string>
+    <string name="drawboard_unsupport_playback">Uw type apparaat ondersteunt afspelen niet</string>
+    <string name="account_already_exist">undefined</string>
+
+    
+    <string name="gallery_change_pen_style">Kwast vervangen</string>
+    <string name="gallery_delete">Verwijderen</string>
+    <string name="change_pen_view_success">Vervanging geslaagd</string>
+    <string name="change_pen_view_failed">Vervanging mislukt</string>
+
+    <string name="social_share_current_format">Huidige formaat</string>
+    <string name="social_share_export">Exporteren naar</string>
+    <string name="social_share_select_format">Exportformaat selecteren</string>
+    <string name="social_share_jpg">JPG</string>
+    <string name="social_share_png">PNG</string>
+    <string name="social_share_pdf">PDF</string>
+    <string name="social_share_mp4">MP4</string>
+    <!--      44444444444444444444444444444444444444444444444444444444444444444444     -->
+    <!-- Category -->
+    <string name="notelist_add_folder">Nieuw</string>
+    <string name="notelist_move_to">Verplaatsen naar</string>
+    <string name="notelist_move_out_of_folder">Verplaatsen uit</string>
+    <string name="notelist_already_move_to_android">Verplaatsen naar %1$s</string>
+    <string name="notelist_delete_folder">Alle pagina\'s in de groep zullen permanent worden verwijderd</string>
+
+    <!-- DefaultPen Activity -->
+    <string name="app_setting_default_pen_tip">* Stel standaard penseel, breedte, transparantie en kleur in </string>
+    <string name="app_setting_default_pen_reset_alert">Wilt u de instellingen van de standaard kwast resetten?</string>
+
+    <!-- ResetDrawing Activity -->
+    <string name="change_pen_view_processing">Bezig met genereren</string>
+    <string name="reset_drawing_fail">Pagina aanmaken mislukt. Probeer het nog een keer.</string>
+
+    <!-- Update dialog -->
+    <string name="update_dialog_find_new_version_android">Nieuwe versie</string>
+    <string name="update_dialog_downloading_android">Bezig met downloaden…</string>
+    <string name="update_dialog_downloaded_android">Downloaden voltooid</string>
+    <string name="update_dialog_going_android">Bezig met downloaden…</string>
+    <string name="update_dialog_success_android">Downloaden voltooid</string>
+    <string name="update_dialog_start_tips_android">Bezig met downloaden; controleer de voortgang in het berichtencentrum</string>
+    <string name="update_dialog_cancel_download_android">Annuleren?</string>
+
+    <!--  save tips  -->
+    <string name="social_share_pdf_save_path_tips_android">Opgeslagen naar:</string>
+
+    <string name="write_board_state_new_page_success_in_device">Nieuwe pagina aangemaakt op RoWrite</string>
+    <string name="write_board_state_already_new_page_in_device">Nieuwe pagina bestaat al op RoWrite</string>
+
+    <string name="facebook_app_id">150736212268328</string>
+
+    <!--  reset pwd  -->
+    <string name="login_view_forget_password">Wachtwoord vergeten?</string>
+
+    <!--  cloud  -->
+    <string name="cloud_storage_sync_content1">Netwerk momenteel onbeschikbaar. Controleer a.u.b. uw netwerkverbindingen.</string>
+    <string name="cloud_storage_sync_content2">Instellingen</string>
+    <string name="cloud_storage_sync_content3">Server bezet, probeer later opnieuw</string>
+    <string name="cloud_storage_sync_content5">U hebt de capaciteitlimiet van Royole Cloud bereikt. Auto-sync mislukt.</string>
+    <string name="cloud_storage_sync_content6">Negeren</string>
+    <string name="cloud_storage_sync_content7">Onvoldoende ruimte beschikbaar op het apparaat. Verhelp dit a.u.b. in Apparaatinstellingen</string>
+    <string name="cloud_storage_sync_content9">Verwijder pagina\'s</string>
+
+    <string name="cloud_storage_sync_content10">Capaciteit van Royole Cloud overschreden. Wis a.u.b. onnodige bestanden.</string>
+    <string name="cloud_storage_sync_content11">Handmatige sync mislukt. Probeer later a.u.b. opnieuw.</string>
+    <string name="cloud_storage_sync_content12">Handmatige sync geslaagd.</string>
+    <string name="cloud_storage_sync_content13">%1$s</string>
+    <string name="cloud_storage_sync_content14">Actie onbeschikbaar tijdens upload naar Royole Cloud. Wacht a.u.b. totdat de upload is voltooid.</string>
+    <string name="cloud_storage_automatic_sync">Sync inschakelen</string>
+    <string name="cloud_storage_automatic_sync_cloud_keyword2">Pagina\'s worden automatisch geüpload naar Royole Cloud</string>
+    <string name="cloud_storage_WiFi_only_sync_on">Alleen synchroniseren wanneer verbonden met WiFi</string>
+
+    <string name="cloud_storage_WiFi_only_sync_off">Synchroniseren via cellulair netwerk - gegevenskosten kunnen worden toegepast</string>
+
+    <string name="cloud_storage_automatic_sync_features">Auto-sync</string>
+    <string name="cloud_storage_automatic_sync_cloud_keyword1">Pagina\'s worden automatisch geüpload naar Royole Cloud</string>
+    <string name="cloud_storage_turn_on_sync">Sync inschakelen</string>
+    <string name="cloud_storage_turn_off_sync">Sync uitschakelen</string>
+
+    <!--  pen  -->
+    <string name="app_setting_default_pen_attributes">Stel standaard eigenschappen in</string>
+    <string name="app_setting_default_pen">Pen</string>
+    <string name="app_setting_default_pencil">Potlood</string>
+    <string name="app_setting_default_marker">Markeerstift</string>
+    <string name="app_setting_default_brush">Kwast</string>
+
+    <!--  cloud sync toast  -->
+    <string name="server_user_info_acount_log_in_first">U moet aangemeld zijn om naar Royole Cloud te uploaden</string>
+
+    <!--  write recognition -->
+    <string name="app_setting_recognition_language">Converteer naar Tekst Functie</string>
+    <string name="app_setting_recognition_language_tip">undefined</string>
+    <string name="app_setting_recognition_language_Chinese">中文（简体）</string>
+    <string name="app_setting_recognition_language_English_us">English (U.S.)</string>
+    <string name="app_setting_recognition_language_English_uk">English (U.K.)</string>
+    <string name="drawboard_recognition_writing_tip">Schrijf duidelijk en horizontaal voor de beste resultaten</string>
+    <string name="drawboard_recognition_close_window_title">Om Convert to Text te gebruiken,</string>
+    <string name="drawboard_recognition_close_window_detail">dient u een apparaat aan RoWrite te koppelen</string>
+    <string name="drawboard_recognition_close_window_keyword">RoWrite</string>
+    <string name="drawboard_recognition_close_window_button">Leer meer over RoWrite</string>
+
+
+    <string name="drawboard_recognition_copy">Pagina kopiëren</string>
+    <string name="drawboard_recognition_copy_wechat">Kopieer naar WeChat</string>
+    <string name="drawboard_recognition_pdf">Exporteer pagina\nals PDF</string>
+    <string name="drawboard_recognition_txt">Exporteer pagina\nals TXT</string>
+    <string name="drawboard_recognition_copy_succeed">Pagina succesvol gekopieerd</string>
+    <string name="drawboard_recognition_no_network">Conversie naar getypte tekst onmogelijk, WiFi-activering vereist. Open Instellingen op uw apparaat en maak verbinding met een WiFi-netwerk om de tekst te converteren.</string>
+    <string name="drawboard_recognition_go_to_settings">Instellingen</string>
+    <string name="drawboard_recognition_ignore">Negeren</string>
+    <string name="drawboard_recognition_gallery_toast">Nieuwe pagina creëren onmogelijk wanneer in conversiemodus. Sluit de conversie naar tekst a.u.b. en probeer opnieuw.</string>
+    <string name="drawboard_recognition_failure_toast">Onverwachte fout, probeer a.u.b. opnieuw.</string>
+    <string name="drawboard_recognition_loading_toast">Conversie wordt uitgevoerd, probeer later a.u.b. opnieuw.</string>
+    <string name="drawboard_recognition_loading_reminder">Convereren…</string>
+    <string name="drawboard_recognition_reset">Conversie opnieuw uitvoeren? Eerdere veranderingen naar geconverteerde tekst zullen verloren gaan.</string>
+    <string name="drawboard_recognition_loading_cancel_reminder">Conversie wordt nu geannuleerd, wacht a.u.b...</string>
+    <string name="app_setting_recognition_language_update">Update</string>
+    <string name="app_setting_recognition_language_delete_doublecheck">Verwijderen? Na verwijdering moet de taal opnieuw worden gedownload voor gebruik.</string>
+    <string name="app_setting_recognition_language_download_failure">Taal downloaden mislukt. Probeer het nog een keer.</string>
+    <string name="app_setting_recognition_language_downloading">Handeling kan niet worden uitgevoerd tot download voltooid is.</string>
+    <string name="app_setting_recognition_language_download_data">Wi-Fi niet verbonden, wilt u mobiele data gebruiken?</string>
+    <string name="social_share_copy_link">Kopieer link</string>
+    <string name="social_share_copy_link_ok">Link van videopagina succesvol gekopieerd</string>
+    <string name="drawboard_recognition_change_language_off">Niet opnieuw laten zien</string>
+    <string name="drawboard_recognition_change_language">Het veranderen van de conversietaal kan letters of cijfers op de Pagina veranderen.</string>
+    <string name="drawboard_paper_style_take_photo">Camera</string>
+    <string name="drawboard_paper_style_photo_album">Fotoalbum</string>
+    <string name="drawboard_paper_style_retake">Opnieuw</string>
+    <string name="drawboard_paper_style_use_photo">Gebruik</string>
+    <string name="h5_share_content1">%s \'s Page</string>
+    <string name="h5_view_login_share">Log in op uw Royole-account om te delen</string>
+    <string name="system_msg_networking_error">Er is iets mis met het netwerk. Probeer het opnieuw.</string>
+
+    <!--第三方账号登录start-->
+    <string name="login_view_phone_login_button">ChinaTelefoon login</string>
+    <string name="login_view_email_login_button">Email-adres login</string>
+    <string name="user_info_account_bind">Gekoppelde Accounts</string>
+    <string name="user_info_account_bind_login">Autoriseer de volgende accounts om aan te melden bij de RoWrite-app</string>
+    <string name="user_info_wechat_account_unbind">WeChat</string>
+    <string name="user_info_QQ_account_unbind">QQ</string>
+    <string name="user_info_Facebook_account_unbind1">Facebook</string>
+    <string name="user_info_Google_account_unbind1">Google</string>
+    <string name="user_info_account_modify">Pas aan</string>
+    <string name="user_info_go_bind">Koppel</string>
+    <string name="user_info_bound">Geassocieerd</string>
+    <string name="user_info_account_download_wechat">Download WeChat</string>
+    <string name="user_info_account_download_qq">Download QQ</string>
+    <string name="user_info_account_download_facebook">Download Facebook</string>
+    <string name="user_info_account_download_google">Download Google App</string>
+    <string name="user_info_phone_view_bind_phone">Telefoon associëren</string>
+    <string name="login_view_phone_bind">Telefoon associëren</string>
+    <string name="login_view_email_bind">Koppel email</string>
+    <string name="login_view_login_with_phone_verify">SMS-verificatie</string>
+    <string name="login_view_pls_email_verify_code_android">Email-adres Verificatie</string>
+    <string name="user_info_account_bind_login_android">Ontkoppel %s</string>
+    <string name="user_info_bind_account_change_tips1">Deautoriseer dit account en log in met een ander account of een andere methode.</string>
+    <string name="h5_share_content2">"Gemaakt met RoWrite\nCreëren - Vastleggen - Delen "</string>
+    <string name="h5_share_content3">"Gemaakt met RoWrite\nCreëren - Vastleggen - Delen "</string>
+    <string name="login_view_logging">Aan het inloggen</string>
+    <string name="login_view_alert_other_device">U bent op dit moment ingelogd op een ander toestel</string>
+    <!--第三方账号登录end-->
+
+    <!--保存多张图片-->
+    <string name="social_share_save_multi_img_android"> %1$s Pagina\'s opslaan</string>
+    <string name="social_share_pdf_more_android">Exporteer \nPDF naar</string>
+    <string name="social_share_png_more">Exporteer \nPNG naar</string>
+    <string name="social_share_jpg_more">Exporteer \nJPG naar</string>
+    <!--保存多张图片-->
+
+    <!--印象笔记 autor YB-->
+    <string name="drawboard_recognition_copy_Evernote">Copieëren naar Evernote</string>
+    <string name="H5_share_content7">Delen geslaagd</string>
+    <!--印象笔记 autor YB-->
+
+
+    <!--v1.8安全连接-->
+    <string name="board_settings_view_band_device_name">De naam van RoWrite</string>
+    <string name="board_settings_view_change_band_device_name">Creëer een naam voor RoWrite</string>
+    <string name="board_settings_view_bluetooth_search_device">Door een naam te maken, kunt u uw RoWrite makkelijker identificeren en koppelen.</string>
+    <string name="board_settings_view_change_band_device_psd">Reset RoWrite-verbindingswachtwoord</string>
+    <string name="board_settings_view_device_connection_mode">Verbindingsmodus</string>
+
+    <string name="board_settings_device_list_connect_successful">Er is verbinding gemaakt</string>
+    <string name="board_settings_device_list_connect_name">Voer de naam van RoWrite in</string>
+    <string name="board_settings_device_list_connect_name_tip">Kies bij het maken van een naam voor RoWrite een naam die u makkelijk kunt onthouden</string>
+    <string name="board_settings_device_list_disconnect_tip">Ontkoppel account</string>
+    <string name="board_settings_device_list_disconnect_tip1">RoWrite is niet langer gekoppeld aan een account. Alle gegevens die in het interne geheugen van RoWrite zijn opgeslagen, zijn toegankelijk voor iedereen.</string>
+    <string name="board_settings_device_list_disconnect_tip2">RoWrite is aan een account gekoppeld en staat in de Privémodus. Om deze account te verwijderen, moet het mobiele apparaat van de accounteigenaar verbonden zijn.</string>
+
+    <string name="app_settings_mode_selection">Selecteer de modus</string>
+    <string name="app_settings_public_mode_title">Openbare modus</string>
+    <string name="app_settings_public_mode_title_tip1">Iedereen kan verbinding maken met deze RoWrite</string>
+    <string name="app_settings_private_mode_title">Privémodus</string>
+    <string name="app_settings_private_mode_title_tip2">Om verbinding te maken met deze RoWrite is het mobiele apparaat van de eigenaar of een wachtwoord nodig</string>
+    <string name="app_settings_private_mode_start_title1">Voer wachtwoord in</string>
+    <string name="app_settings_private_mode_start">RoWrite staat in de Privémodus</string>
+    <string name="app_settings_private_mode_connect_password">Voer het 6-cijferige verbindingswachtwoord in</string>
+    <string name="app_settings_private_mode_set_new_psd">Voer de 18-letterige</string>
+    <string name="app_settings_private_mode_title2">RoWrite staat in de Privémodus</string>
+    <string name="app_settings_private_mode_start_title3">Maak een 6-cijferig verbindingswachtwoord</string>
+    <string name="app_settings_public_mode_start">RoWrite staat in de Openbare modus</string>
+    <string name="app_settings_private_mode_enter_original_psd">Voer een 6-cijferig verbindingswachtwoord in</string>
+    <string name="app_settings_private_mode_enter_new_password">Maak een 6-cijferig verbindingswachtwoord</string>
+    <string name="app_settings_private_mode_set_psd_tip">Voer het 6-cijferige verbindingswachtwoord in om verbinding te maken met deze RoWrite</string>
+    <string name="app_settings_private_mode_forget_psd">RoWrite-verbindingswachtwoord vergeten</string>
+    <string name="app_settings_private_mode_reset_device">Om RoWrite te resetten, neemt u een naald of ander klein voorwerp en steekt u die in de resetopening naast de aan/uit-knop op RoWrite</string>
+    <string name="app_settings_private_mode_reset_device_tip">Let op: als u RoWrite reset, worden alle gegevens die in het interne geheugen van RoWrite zijn opgeslagen, verwijderd. Zorg dat u alle gegevens van RoWrite naar de RoWrite-app overzet voordat u reset.</string>
+
+    <string name="server_user_info_invalid_pwd_retype">Onjuist wachtwoord. Voer opnieuw in.</string>
+    <string name="server_user_info_invalid_pwd_retry">U hebt drie keer een onjuist wachtwoord ingevoerd. Wacht 15 minuten voordat u het wachtwoord opnieuw invoert.  </string>
+    <string name="server_user_info_invalid_pwd_reset">Wachtwoord is opnieuw ingesteld</string>
+    <string name="server_user_info_time_limitation_psd">Voer wachtwoord in 2 minuten.</string>
+    <string name="board_settings_dfu_view_new_version_alert_clear_mesg">Hiermee worden alle op de RoWrite opgeslagen pagina\'s verwijderd.</string>
+    <!--v1.8安全连接-->
+
+    <string name="server_user_info_view_update_now">Update RoWrite-app beschikbaar</string>
+    <string name="server_user_info_view_update_content">Wat is er nieuw in de app-update</string>
+    <string name="notelist_dafault_page_name_Monday">maandag&#160;</string>
+    <string name="notelist_dafault_page_name_Tuesday">dinsdag&#160;</string>
+    <string name="notelist_dafault_page_name_Wednesday">woensdag&#160;</string>
+    <string name="notelist_dafault_page_name_Thursday">donderdag&#160;</string>
+    <string name="notelist_dafault_page_name_Friday">vrĳdag&#160;</string>
+    <string name="notelist_dafault_page_name_Saturday">zaterdag&#160;</string>
+    <string name="notelist_dafault_page_name_Sunday">zondag&#160;</string>
+    <string name="notelist_dafault_page_name_Jan">&#160;januar&#160;</string>
+    <string name="notelist_dafault_page_name_Feb">&#160;februari&#160;</string>
+    <string name="notelist_dafault_page_name_Mar">&#160;maart&#160;</string>
+    <string name="notelist_dafault_page_name_Apr">&#160;april&#160;</string>
+    <string name="notelist_dafault_page_name_May">&#160;mei&#160;</string>
+    <string name="notelist_dafault_page_name_Jun">&#160;juni&#160;</string>
+    <string name="notelist_dafault_page_name_Jul">&#160;juli&#160;</string>
+    <string name="notelist_dafault_page_name_Aug">&#160;augustus&#160;</string>
+    <string name="notelist_dafault_page_name_Sept">&#160;september&#160;</string>
+    <string name="notelist_dafault_page_name_Oct">&#160;oktober&#160;</string>
+    <string name="notelist_dafault_page_name_Nov">&#160;november&#160;</string>
+    <string name="notelist_dafault_page_name_Dec">&#160;december&#160;</string>
+    <string name="notelist_dafault_page_name_today">Vandaag</string>
+    <string name="notelist_dafault_page_name_yesterday">Gisteren</string>
+    <string name="notelist_default_sort_ascending_order">Eerste pagina eerst sorteren</string>
+    <string name="notelist_default_sort_descending_order">Laatste pagina eerst sorteren</string>
+
+    <!--个人中心-->
+    <string name="cloud_storage_sync_content16">Cloudruimte</string>
+    <string name="settings_unlogin_title">Log in</string>
+    <string name="settings_card_purchase_rowrite">Purchase RoWrite</string>
+    <string name="settings_card_convert_text_vip">Unlock Convert to Text feature with RoWrite purchase</string>
+    <string name="settings_card_upgrade_vip_member">Purchase</string>
+    <string name="system_msg_networking_error_tips">Netwerk fout. Probeer het a.u.b. opnieuw.</string>
+
+    <!--个人中心-->
+
+    <!--首页Tab start-->
+    <string name="notelist_home_homepage_name">Pagina</string>
+    <string name="notelist_home_store_name">Winkel</string>
+    <string name="notelist_home_me_name">Instellingen</string>
+    <string name="notelist_default_sort">Standaard sorteren</string>
+    <!--首页Tab end-->
+
+</resources>

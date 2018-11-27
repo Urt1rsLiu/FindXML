@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="notelist_search_bar_default">搜索笔记名、笔记内容</string>
+  <string name="search_history">Search history</string>
+  <string name="system_msg_tip_open_bluetooth">请打开系统蓝牙开关</string>
+  <string name="notelist_default_sort_calendar_april">四月</string>
+  <string name="notelist_search_bar_no_result">没有搜索结果</string>
+  <string name="notelist_search_bar_result_page_name">笔记名</string>
+  <string name="cancel_the_auth">Cancel authorization</string>
+  <string name="notelist_search_bar_result_all">全部</string>
+  <string name="search_result_note_name">笔记名称</string>
+  <string name="search_result_all">全部笔记</string>
+  <string name="notelist_default_sort_calendar">时间筛选</string>
+  <string name="notelist_default_sort_calendar_december">十二月</string>
+  <string name="notelist_default_sort_calendar_search_button">搜索</string>
+  <string name="search_result_note_content">笔记内容</string>
+  <string name="notelist_default_sort_calendar_august">八月</string>
+  <string name="notelist_default_sort_calendar_Tuesday">星期二</string>
+  <string name="notelist_default_sort_calendar_Sunday">星期日</string>
+  <string name="app_setting_recognition_language_English_norge">Norsk</string>
+  <string name="notelist_default_sort_calendar_october">十月</string>
+  <string name="notelist_default_sort_calendar_july">七月</string>
+  <string name="app_setting_recognition_language_English_danish">Dansk</string>
+  <string name="notelist_default_sort_calendar_Thursday">星期四</string>
+  <string name="app_setting_recognition_language_English_finnish">Suomi</string>
+  <string name="search_result_not_found">没有找到搜索结果</string>
+  <string name="system_msg_start_camera_failed_tips">无法访问相机</string>
+  <string name="search_input_hint">搜索笔记名、笔记内容</string>
+  <string name="NSPhotoLibraryUsageDescription">柔记需要访问你的相册，以便你正常使用图片上传，图片保存，换纸等服务</string>
+  <string name="notelist_default_sort_calendar_september">九月</string>
+  <string name="notelist_default_sort_calendar_june">六月</string>
+  <string name="notelist_search_bar_history">搜索历史</string>
+  <string name="system_msg_start_album_failed_tips">无法访问相册</string>
+  <string name="notelist_default_sort_calendar_february">二月</string>
+  <string name="notelist_default_sort_calendar_november">十一月</string>
+  <string name="notelist_default_sort_calendar_may">五月</string>
+  <string name="notelist_default_sort_calendar_Wednesday">星期三</string>
+  <string name="server_verify_code_sms_content">【柔宇科技】验证码：XXXX，请在X分钟内完成验证。如非本人操作，请忽略本短信。</string>
+  <string name="notelist_default_sort_calendar_Saturday">星期六</string>
+  <string name="NSCameraUsageDescription">柔记需要访问你的相机，以便你正常使用扫一扫，笔记背景图片更换等服务</string>
+  <string name="notelist_default_sort_calendar_march">三月</string>
+  <string name="notelist_default_sort_calendar_start">开始：未选择</string>
+  <string name="notelist_search_bar_result_page_content">笔记内容</string>
+  <string name="notelist_default_sort_calendar_january">一月</string>
+  <string name="notelist_default_sort_calendar_end">结束：未选择</string>
+  <string name="NSBluetoothPeripheralUsageDescription">柔记需要访问你的蓝牙，以为你正常使用笔记传输等服务</string>
+  <string name="app_setting_recognition_language_English_swedish">Svenska</string>
+  <string name="search_note_heeader_content">笔记内容 (%d)</string>
+  <string name="notelist_default_sort_calendar_Friday">星期五</string>
+  <string name="search_note_heeader_all">全部笔记 (%d)</string>
+  <string name="notelist_default_sort_calendar_Monday">星期一</string>
+  <string name="search_note_heeader_name">笔记名称 (%d)</string>
+</resources>

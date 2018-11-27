@@ -1,0 +1,524 @@
+<resources>
+    <string name="app_name">RoWrite</string>
+    <string name="board_settings_device_list_connect">Connect</string>
+    <string name="board_settings_guide_no">Connect Later</string>
+    <string name="board_settings_guide_skip">Skip</string>
+    <string name="board_settings_scan_device_title">Scan Device</string>
+    <!--<string name="choose_device">Select device</string>-->
+    <string name="board_settings_device_list_connecting">Connecting</string>
+    <string name="board_settings_guide_yes">Yes</string>
+    <string name="common_complete">Done</string>
+    <string name="system_msg_no_network">Current network is unavailable</string>
+    <string name="board_settings_view_battery">Device Battery</string>
+    <string name="board_settings_dfu_view_title">Firmware Update</string>
+    <string name="app_settings_check_app_version_android">Check New Version</string>
+    <string name="board_settings_view_change_band_device">Change Device</string>
+    <string name="notelist_bg_empty_text">Hello. Welcome to RoWrite\nStart Creating Now!</string>
+    <string name="app_settings_current_app_version_android">Current version&#160;v%s</string>
+    <!--<string name="dfu_update_title">Firmware update</string>-->
+    <string name="app_settings_checking_app_version">Checking for update</string>
+    <string name="app_settings_new_app_version_available_android">New app version&#160;%s is available.</string>
+    <string name="board_settings_dfu_view_new_version_android">New firmware version&#160;%s is available.</string>
+    <string name="board_settings_dfu_view_update_now">Update now</string>
+    <string name="app_settings_new_app_version_already_android">Your App is up to date v%s</string>
+    <string name="board_settings_dfu_view_already_latest_android">Firmware is up to date v%s</string>
+    <string name="board_settings_dfu_view_updating">Updating firmware now…\nPlease keep device connected.</string>
+    <string name="app_settings_update_downloading_android">App is downloading…</string>
+    <string name="board_settings_dfu_view_downloading">Firmware downloading...</string>
+    <string name="board_settings_dfu_view_update_success">Update successful</string>
+    <string name="board_settings_dfu_view_update_failed">Update failed</string>
+    <string name="board_settings_guide_tips">Do you have a RoWrite device?</string>
+    <string name="notelist_double_click_exit_android">Tapping again will quit the app</string>
+    <string name="notelist_rename_view_rename">Name</string>
+    <string name="drawboard_set_pen_line_width_android">Width:%spx</string>
+    <string name="drawboard_set_pen_line_alpha_android">Opacity:%s</string>
+    <string name="notelist_alert_delete_mesg">The Page will be permanently deleted.</string>
+    <string name="gallery_delete_alert_msg">Current Page will be permanently deleted</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_ok">OK</string>
+    <string name="board_settings_dfu_view_not_wifi_tip_still_title">Reminder</string>
+    <string name="save_tips">Save the change?</string>
+    <string name="notelist_rename_view_name_nil">Name can’t be empty.</string>
+    <string name="write_board_state_sync_no_pages">No Page on device.</string>
+    <string name="settings_no_connect">Disconnected</string>
+    <string name="notelist_device_no_connect_tips">Please connect your device.</string>
+    <string name="board_settings_device_list_bind_device">Pair Device</string>
+    <string name="board_settings_device_list_connect_failed">Failed to connect. Please try again.</string>
+    <string name="write_board_state_did_connect">Device connected</string>
+    <string name="write_board_state_did_disconnect">Device disconnected</string>
+    <string name="write_board_state_sync_alert_syncing">Syncing Page</string>
+    <string name="drawboard_alert_new_page_success">New Page created</string>
+    <string name="drawboard_already_new_page">New Page already exists</string>
+    <string name="board_settings_dfu_view_not_wifi_tip_message">Wi-Fi network is unavailable. Download the latest version using cellular data?</string>
+    <string name="app_settings_new_app_version_download_failed">Download failed. Please try again!</string>
+    <string name="drawboard_tip_no_write">Cannot replay, no content on Page</string>
+    <string name="notelist_default_painting_name">Page</string>
+    <string name="share_to">Export to</string>
+    <!--<string name="need_connect_device">Please open your device.</string>-->
+    <string name="board_settings_device_list_alert_disconnect_tip">Device has connected，please disconnect first!</string>
+    <!--<string name="disconnect_now">Disconnect</string>-->
+    <string name="write_board_state_low_power">Low battery. Please charge your device.</string>
+    <string name="write_board_state_out_of_disk">Device storage is almost full.</string>
+    <string name="write_board_state_disk_full">Device storage is full.</string>
+    <string name="write_board_state_sync_alert_info_1page_android">%1$s Page not synced. Estimated time is %2$s.</string>
+    <string name="write_board_state_sync_alert_info_mutil_pages_android">%1$s Pages not synced. Estimated time is %2$s.</string>
+    <string name="write_board_state_sync_alert_format_time_sec_android">%ss</string>
+    <string name="write_board_state_sync_alert_format_time_min_android">%1$smin %2$ss</string>
+    <string name="board_settings_view_alert_clear">Clear Device Cache</string>
+    <string name="board_settings_alert_clear_mesg">This will delete all Pages stored on RoWrite, Okay to delete?</string>
+    <string name="board_settings_clear_now">Clearing...</string>
+    <string name="board_settings_clear_success">Finished</string>
+    <string name="board_settings_scan_device_scan_mesg">Scan the bar code on the back of your device to be connected.</string>
+    <string name="board_settings_scan_device_scan_error">Please ensure your device power is on.</string>
+    <string name="app_settings_store_title">Store</string>
+    <string name="board_settings_scan_device_camera_permission_tips">Scan code connection need to open camera permissions, please open camera permissions.</string>
+    <string name="board_settings_device_list_alert_disconnect">Disconnect device</string>
+    <string name="board_settings_device_list_connect_tips">Please ensure your device power is on.</string>
+    <string name="drawboard_alert_clear_warning">Erase content on Page?</string>
+    <string name="drawboard_saving_note_android">Saving...</string>
+    <string name="write_board_state_sync_error_android">Note synchronization data error on page %s!</string>
+    <string name="drawboard_loading_note_android">Loading...</string>
+    <string name="board_settings_device_list_title">Device list</string>
+
+    <!--<string name="app_notelist_share_title">Share To</string>-->
+    <string name="social_share_moment">Moments</string>
+    <string name="social_share_friend">Friends</string>
+    <string name="social_share_10s_video">10s Short\nVideo</string>
+    <string name="social_share_original_video">Complete\nVideo</string>
+    <string name="app_notlist_share_facebook">Facebook</string>
+    <string name="app_notlist_share_messenger">Messenger</string>
+    <string name="app_notlist_share_instagram">Instagram</string>
+    <string name="social_share_save_img">Save</string>
+    <string name="social_share_save_pdf">Save</string>
+    <string name="social_share_more">More</string>
+    <string name="social_share_img_saved">Saved to album</string>
+    <string name="export_video_10s_video">Save 10s short video</string>
+    <string name="export_video_alert_exporting">Saving video...</string>
+    <string name="export_video_normal_video">Save original video</string>
+    <string name="export_video_completed">Saved to album</string>
+    <string name="export_video_no_space">Failed to save video, Not enough storage</string>
+    <string name="export_video_export_error">Failed to save video</string>
+    <string name="board_settings_no_clear_content">No Page to be cleared</string>
+    <string name="system_msg_open_storage_camera_permission_android">Enable storage and camera access in settings to use this feature.</string>
+    <string name="system_msg_open_camera_permission_android">Enable camera access in settings to use feature</string>
+
+    <!-- 2 -->
+    <string name="settings_writeboard">RoWrite Device</string>
+    <string name="settings_rowrite_app">RoWrite App</string>
+    <string name="settings_rowrite_guide">Tutorials</string>
+    <string name="settings_feedback">Feedback</string>
+    <string name="settings_feedback_placeholder">To improve RoWrite, please provide feedback</string>
+    <string name="settings_feedback_submit">Done</string>
+    <!--<string name="advice_can_not_empty">Content can’t be empty.</string>-->
+    <string name="settings_feedback_success">Thanks for your advice!</string>
+    <string name="settings_feedback_less_content">Please enter more than 4 characters</string>
+    <string name="settings_feedback_more_content">Please enter no more than 1000 characters</string>
+    <string name="app_settings_watermark">Watermark</string>
+    <string name="app_setting_default_pen_title">Preset Brush</string>
+    <string name="app_settings_about">About</string>
+    <string name="app_settings_user_agreement">User Agreement</string>
+    <string name="app_settings_privacy_policy">Privacy Policy</string>
+    <string name="app_settings_copyright1">©2018 Royole Corporation. The Royole logo,</string>
+    <string name="app_settings_copyright2">Royole, and RoWrite are registered trademarks</string>
+    <string name="app_settings_copyright3">of Royole Corporation. All rights reserved.</string>
+    <string name="settings_defalut_signature">Create. Capture. Share.</string>
+    <string name="settings_unlogin_nickname">Welcome to RoWrite</string>
+    <string name="settings_login">Log In</string>
+    <string name="login_view_enter_phone">Enter Mainland China Phone</string>
+    <string name="login_view_next">Next</string>
+    <string name="server_user_info_can_not_conn_server">Failed to connect to server. Please try later.</string>
+    <string name="verify_code">Verification code</string>
+    <string name="login_view_reSend">Resend</string>
+    <string name="login_view_pls_input_mobile_verify_code_android">Please enter the verification code received by %1$s</string>
+    <string name="login_view_reset_password_mail_android">Verification code has been sent to email %1$s. Please complete the verification process in 30 minutes.</string>
+    <string name="login_view_pls_set_pwd">Please enter password</string>
+    <string name="login_view_pwd_format_info">8 to 16 numbers and letters</string>
+    <string name="login_view_login_success">Login succeed</string>
+    <string name="login_view_login_with_verify_code">SMS verification</string>
+    <string name="user_info_title">Personal data</string>
+    <string name="user_info_nickname">Nickname</string>
+    <string name="user_info_sex">Gender</string>
+    <string name="user_info_telephone">Phone</string>
+    <string name="user_info_logout">Log Out</string>
+    <string name="user_info_male">Male</string>
+    <string name="user_info_female">Female</string>
+    <string name="user_info_sex_unknow">Unknown</string>
+    <string name="user_info_phone_view_change_phone">Change Phone</string>
+    <string name="user_info_email_view_bind_android">Associated Email %s</string>
+    <string name="user_info_nickname_tip">A good nickname helps your friends remember you more easily.</string>
+    <string name="user_info_nickname_empty">Nickname can’t be empty.</string>
+    <string name="user_info_nickname_change_failed">Rename failed</string>
+    <string name="user_info_bind_phone_chanage_tips_android">After changing to new phone number, you can use it to log in next time. Current bound phone number %1$s cannot be used to log in anymore.</string>
+    <string name="system_msg_open_storage_permission_android">Enable storage access in settings to use this feature</string>
+    <string name="user_info_bind_phone_pls_input_new_phone">Please enter new phone number</string>
+
+    <string name="rule_tip_word_3">By signing up, you agree to Royole\'s&#160;</string>
+    <string name="rule_tip_word_4">&#160;and&#160;</string>
+    <string name="rule_tip_word_5">.</string>
+    <string name="user_info_bind_phone_alert_already_bind">This phone number is already bound to other account. Please try another phone number.</string>
+    <string name="server_user_info_invalid_pwd">Wrong password</string>
+    <string name="server_user_info_acount_lock">Login is too frequent. Please retry after 10 minutes.</string>
+    <string name="login_view_pls_input_valid_mobile">Incorrect phone format</string>
+    <string name="server_user_info_verify_code_input_limit">Verification code expired. Please get a new verification code.</string>
+    <string name="server_user_info_verify_code_incorrect">Wrong verification code. Please enter again.</string>
+    <string name="server_user_info_sms_over">Message verification code has been sent too many times. Please retry after 24 hours.</string>
+    <string name="login_view_alert_login_expire">Login expired.Please login again.</string>
+    <string name="user_info_nickname_default">RoWriter</string>
+    <string name="user_info_bind_phone_email_alert_already_bind_got_it">Got It</string>
+    <string name="login_view_get_mobile_verify_code_success">Verification code sent via SMS to this phone number, please check.</string>
+    <string name="login_view_pls_input_phone_verify_code_temp">Verification code has been sent to phone %s</string>
+    <string name="login_view_waring_login_for_not_chinese">Only mainland China phone is supported to log in.</string>
+    <!--version 4  ############################################################################### -->
+    <string name="settings_customer_service">Contact Us</string>
+    <string name="login_view_phone_login">China Phone login</string>
+    <string name="login_view_email_login">Email login</string>
+    <string name="login_view_enter_email">Please enter email address</string>
+    <string name="user_info_bind_email_pls_input_new_email">Please enter a new email address</string>
+    <string name="user_info_email">Email</string>
+
+    <!-- Batch Mode-->
+    <string name="notelist_selected_page_android">%1$s</string>
+    <string name="notelist_batch_note_android"> &#160;Page</string>
+    <string name="notelist_batch_notes_android"> &#160;Pages</string>
+    <string name="notelist_alert_delete_multi_mesg_android">%1$s will be permanently deleted</string>
+    <string name="notelist_merge">Merge</string>
+    <string name="notelist_merge_two_pages_tips">Select two Pages to Merge</string>
+    <string name="notelist_merge_alert_merge">Merge these two Pages?</string>
+    <string name="notelist_merge_note_processing">Generating..</string>
+    <string name="notelist_merge_note_success">Pages merged successfully</string>
+    <string name="notelist_merge_note_failed">Pages failed to merge</string>
+    <string name="user_info_email_view_resend_activate_email">Resend Verification Email</string>
+    <string name="user_info_email_view_change_email">Change Email Address</string>
+    <string name="user_info_phone_view_bind">Associated Phone %s</string>
+    <string name="user_info_email_view_bind_not_activate_android">Associated Email %s (Unverified)</string>
+    <string name="user_info_bind_email_tips_android">After changing to new email address, use it to log in the next time.The current associated email address %1$s cannot be used to log in anymore.</string>
+    <string name="user_info_bind_email_alert_already_bind">This email address is already bound to other account. Please try another email address.</string>
+    <string name="login_view_pls_input_email_verify_code_android">Verification code has been sent to %s.</string>
+    <!--<string name="bind_email_tips">Please enter email address</string>-->
+    <string name="user_info_email_view_send_acitvate_email_success">Email sent</string>
+    <string name="user_info_bind_email_success">Association successful</string>
+    <string name="user_info_bind_email_failed">Association failed</string>
+    <string name="user_info_bind_phone_success">Association successful</string>
+    <string name="user_info_bind_phone_failed">Association failed</string>
+
+    <!--user guide highlight-->
+    <string name="notelist_user_guide_multi_select_keyword">Long press</string>
+    <string name="notelist_user_guide_merge_keyword">Merge</string>
+    <string name="drawboard_user_guide_split_pause_keyword">pause</string>
+    <string name="drawboard_user_guide_split_start_keyword">Split</string>
+    <string name="drawboard_user_guide_clear_note_keyword">clear</string>
+    <string name="drawboard_user_guide_export_video_keyword">Save</string>
+    <string name="share_highlight">share</string>
+    <string name="change_pen_view_user_guide1_keyword">stroke and color</string>
+    <string name="change_pen_view_user_guide2_keyword">preview</string>
+    <string name="gallery_user_guide_keyword">Swipe left/right</string>
+    <string name="notelist_group_page_keyword">Pinch</string>
+    <string name="drawboard_recognition_guide1_keyword">Convert to Text</string>
+    <string name="drawboard_recognition_guide2_keyword">write on paper</string>
+    <string name="drawboard_recognition_guide3_keyword">Settings>RoWrite App</string>
+    <!--user guide text-->
+    <string name="notelist_user_guide_multi_select">Long press to select multiple Pages</string>
+    <string name="notelist_user_guide_merge">Select two Pages and\npress Merge</string>
+    <string name="drawboard_user_guide_split_pause">Tap to pause</string>
+    <string name="drawboard_user_guide_split_start">Activate the Split button</string>
+    <!--<string name="clear_guide_text">Double tap to\nclear all notes</string>-->
+    <string name="drawboard_user_guide_export_video">Save video to share!</string>
+    <string name="share_guide_text">Tap "..." to share</string>
+    <string name="change_pen_view_user_guide1">Please select stroke and color\nyou want to replace</string>
+    <string name="change_pen_view_user_guide2">Tap to preview\nyour change</string>
+    <string name="gallery_user_guide">Swipe left/right to view</string>
+    <string name="notelist_group_page">To group multiple Pages press\n two pages to select and then Pinch</string>
+    <string name="drawboard_recognition_guide1">Convert to Text\nchanges handwriting\nto typed text</string>
+    <string name="drawboard_recognition_guide2">As you write on paper\nyour words are converted to typed text </string>
+    <string name="drawboard_recognition_guide3">Select your writing language in Settings>RoWrite App to increase conversion accuracy.</string>
+    <!--split text-->
+    <string name="drawboard_split_pause_tips">Please pause video and then press Split icon</string>
+    <string name="drawboard_split_stop_tips">Please pause at where you want to split</string>
+    <string name="drawboard_split_alert_split">Split this Page?</string>
+    <string name="split_drawing_generating">Generating</string>
+    <string name="drawboard_split_success">Page split successful</string>
+    <string name="split_failed">Splitting failed</string>
+
+    <!--Drawing Activity-->
+    <string name="write_board_state_cannot_sync_in_real_time_mode">You cannot sync data in edit mode</string>
+    <!--<string name="reject_create_new_page">You cannot create new page in edit mode</string>-->
+    <string name="drawboard_paper_style_take_photo">Camera</string>
+    <string name="drawboard_paper_style_photo_album">Photo Album</string>
+    <string name="drawboard_paper_style_retake">Retake</string>
+    <string name="drawboard_paper_style_use_photo">Use</string>
+    <string name="drawboard_paper_style_coming_soon">More styles\nComing soon</string>
+    <string name="drawboard_rubber_size">Eraser Size:%spx</string>
+    <string name="drawboard_alert_clear_all">Erase content</string>
+    <string name="drawboard_alert_clear_all_warning">Ok to erase Page content?</string>
+
+    <string name="user_info_unbind">Not Associated</string>
+    <string name="server_user_info_get_verify_code_too_frequently">Verification Code not available. Please wait 1 minute and retry.</string>
+    <string name="drawboard_unsupport_playback">Your device type does not support playback</string>
+    <string name="account_already_exist">This account already exists. Please log in directly.</string>
+
+
+    <string name="social_share_current_format">Current Format </string>
+    <string name="social_share_export">Export to</string>
+    <string name="social_share_select_format">Select Export Format</string>
+    <string name="social_share_jpg">JPG</string>
+    <!--<string name="social_share_jpg_tip">Original Background</string>-->
+    <string name="social_share_png">PNG</string>
+    <!--<string name="social_share_png_tip">Transparent Background</string>-->
+    <string name="social_share_pdf">PDF</string>
+    <!--<string name="social_share_pdf_tip">Portable Document</string>-->
+    <string name="social_share_mp4">MP4</string>
+
+    <!--Category-->
+    <string name="notelist_add_folder">New</string>
+    <string name="notelist_move_to">Move to</string>
+    <string name="notelist_move_out_of_folder">Move out</string>
+    <string name="notelist_already_move_to_android">Move to %1$s</string>
+    <string name="notelist_delete_folder">All Pages in the group will be permanently deleted</string>
+    <!--salon-->
+    <string name="gallery_change_pen_style">Replace Brush</string>
+    <string name="gallery_delete">Delete</string>
+    <string name="change_pen_view_success">Replacement succeed</string>
+    <string name="change_pen_view_failed">Replacement failed</string>
+    <!--DefaultPen Activity-->
+    <string name="app_setting_default_pen_tip">* Set default brush, width, opacity, and color</string>
+    <string name="app_setting_default_pen_reset_alert">Okay to reset default brush settings?</string>
+
+    <!--ResetDrawing Activity-->
+    <string name="change_pen_view_processing">Generating</string>
+    <string name="reset_drawing_fail">Page creation failed. Please try again.</string>
+
+    <!--Update dialog-->
+    <string name="update_dialog_find_new_version_android">New Version</string>
+    <string name="update_dialog_downloading_android">Downloading…</string>
+    <string name="update_dialog_downloaded_android">Download completed</string>
+    <string name="update_dialog_going_android">Downloading…</string>
+    <string name="update_dialog_success_android">Download completed</string>
+    <string name="update_dialog_start_tips_android">Downloading now, please check the progress in the notification center.</string>
+    <string name="update_dialog_cancel_download_android">Okay to cancel?</string>
+
+    <!-- save tips -->
+    <string name="social_share_pdf_save_path_tips_android">Saved to:</string>
+
+    <string name="write_board_state_new_page_success_in_device">New page created in device</string>
+    <string name="write_board_state_already_new_page_in_device">New page already created in device</string>
+
+    <string name="login_view_forget_password">Forgot password?</string>
+    <!--N4bzeMkAnWah-p3R1GDi51ZTqB5M=-->
+
+    <string name="facebook_app_id">150736212268328</string>
+
+    <!-- cloud -->
+    <string name="cloud_storage_sync_content1">Network currently unavailable. Please check Network connections.  </string>
+    <string name="cloud_storage_sync_content2">Settings</string>
+    <string name="cloud_storage_sync_content3">Server busy, try back later</string>
+    <string name="cloud_storage_sync_content5">You have reached the Royole Cloud capacity limit. Auto sync failed.</string>
+    <string name="cloud_storage_sync_content6">Ignore</string>
+    <string name="cloud_storage_sync_content7">Not enough device storage available. Please manage in Device Settings</string>
+    <string name="cloud_storage_sync_content9">Delete Pages</string>
+    <string name="cloud_storage_sync_content10">Exceeded Royole Cloud capacity. Please delete unnecessary files.</string>
+    <string name="cloud_storage_sync_content11">Manual Sync failed. Please try again later.</string>
+    <string name="cloud_storage_sync_content12">Manual Sync successful.</string>
+    <string name="cloud_storage_sync_content13">%1$s</string>
+    <string name="cloud_storage_sync_content14">Action not available while uploading to Royole Cloud. Please wait until uploading complete.</string>
+    <string name="cloud_storage_automatic_sync">Turn Sync On</string>
+    <string name="cloud_storage_automatic_sync_cloud_keyword2">Pages automatically upload to Royole Cloud</string>
+    <string name="cloud_storage_WiFi_only_sync_on">Sync only when connected to Wi-Fi</string>
+    <string name="cloud_storage_WiFi_only_sync_off">Sync using Cellular Network - Data rates may apply</string>
+
+    <string name="cloud_storage_automatic_sync_features">Auto Sync</string>
+    <string name="cloud_storage_automatic_sync_cloud_keyword1">Pages automatically upload to Royole Cloud</string>
+    <string name="cloud_storage_turn_on_sync">Turn on Sync</string>
+    <string name="cloud_storage_turn_off_sync">Turn off Sync</string>
+
+    <!-- pen -->
+    <string name="app_setting_default_pen_attributes">Set default properties</string>
+    <string name="app_setting_default_pen">Pen</string>
+    <string name="app_setting_default_pencil">Pencil</string>
+    <string name="app_setting_default_marker">Marker</string>
+    <string name="app_setting_default_brush">Brush</string>
+
+    <!-- cloud sync toast -->
+    <string name="server_user_info_acount_log_in_first">You must be logged in to upload to Royole Cloud</string>
+
+    <!-- write recognition-->
+    <string name="app_setting_recognition_language">Convert to Text Feature</string>
+    <string name="app_setting_recognition_language_tip">Set language that you want to convert</string>
+    <string name="app_setting_recognition_language_Chinese">中文（简体）</string>
+    <string name="app_setting_recognition_language_English_us">English (U.S.)</string>
+    <string name="app_setting_recognition_language_English_uk">English (U.K.)</string>
+    <string name="drawboard_recognition_writing_tip">For best results, please write clearly and horizontally</string>
+    <string name="drawboard_recognition_close_window_title">To use Convert to Text</string>
+    <string name="drawboard_recognition_close_window_detail">pair a device to RoWrite</string>
+    <string name="drawboard_recognition_close_window_keyword">RoWrite</string>
+    <string name="drawboard_recognition_close_window_button">Learn more about RoWrite</string>
+
+    <string name="app_setting_recognition_language_English_traditional_chinese">中文（繁体）</string>
+    <string name="app_setting_recognition_language_English_german">Deutsch</string>
+    <string name="app_setting_recognition_language_English_spanish">Español</string>
+    <string name="app_setting_recognition_language_English_french">Français</string>
+    <string name="app_setting_recognition_language_English_italian">Italiano</string>
+    <string name="app_setting_recognition_language_English_dutch">Nederlands</string>
+    <string name="app_setting_recognition_language_English_finnish">Suomi</string>
+    <string name="app_setting_recognition_language_English_danish">Dansk</string>
+    <string name="app_setting_recognition_language_English_swedish">Svenska</string>
+    <string name="app_setting_recognition_language_English_norge">Norsk</string>
+    <string name="app_setting_recognition_language_update">Update</string>
+    <string name="app_setting_recognition_language_delete_doublecheck">Delete? Once deleted the language must be download again to use.</string>
+    <string name="app_setting_recognition_language_download_failure">Language failed to download. Please try again.</string>
+    <string name="app_setting_recognition_language_downloading">Action cannot be performed until download is complete.</string>
+    <string name="app_setting_recognition_language_download_data">Wi-Fi not connected, use cellular data?</string>
+    <string name="social_share_copy_link">Copy link</string>
+    <string name="social_share_copy_link_ok">Video page link copied successfully</string>
+    <string name="social_share_video">Video</string>
+    <string name="drawboard_recognition_change_language_off">Don\'t show again</string>
+    <string name="drawboard_recognition_change_language">Changing Convert to Text language may cause some letters or numbers on Page to change.</string>
+
+
+    <!--write recognition share-->
+    <!--<string name="app_recognition_content_copy">Copy</string>-->
+    <string name="drawboard_recognition_copy">Copy Page</string>
+    <string name="drawboard_recognition_copy_wechat">Copy to WeChat</string>
+    <string name="drawboard_recognition_pdf">Export Page as\nPDF</string>
+    <string name="drawboard_recognition_txt">Export Page as\nTXT</string>
+    <string name="drawboard_recognition_copy_succeed">Page copied successfully</string>
+    <string name="drawboard_recognition_no_network">Unable to convert to typed text, Wi-Fi activation required. Go to your device Settings and connect to a Wi-Fi network.to convert to text.</string>
+    <string name="drawboard_recognition_go_to_settings">Settings</string>
+    <string name="drawboard_recognition_ignore">Ignore</string>
+    <string name="drawboard_recognition_gallery_toast">Cannot create new Page while in conversion mode. Please quit convert to text and try again.</string>
+    <string name="drawboard_recognition_failure_toast">Unexpected error, please try again.</string>
+    <string name="drawboard_recognition_loading_toast">Conversion in process, please try later.</string>
+    <string name="drawboard_recognition_loading_reminder">Converting…</string>
+    <string name="drawboard_recognition_reset">Redo conversion? Prior changes to converted text will be lost.</string>
+    <string name="drawboard_recognition_loading_cancel_reminder">Cancelling conversion now, please wait...</string>
+
+    <!--第三方账号登录start-->
+    <string name="login_view_phone_login_button">China Phone login</string>
+    <string name="login_view_email_login_button">Email login</string>
+    <string name="user_info_account_bind">Linked Accounts</string>
+    <string name="user_info_account_bind_login">Authorize the following accounts to Sign into RoWrite App</string>
+    <string name="user_info_wechat_account_unbind">WeChat</string>
+    <string name="user_info_QQ_account_unbind">QQ</string>
+    <string name="user_info_Facebook_account_unbind1">Facebook</string>
+    <string name="user_info_Google_account_unbind1">Google</string>
+    <string name="user_info_account_modify">Modify</string>
+    <string name="user_info_go_bind">Link</string>
+    <string name="user_info_bound">Associated</string>
+    <string name="user_info_account_download_wechat">Please download WeChat first.</string>
+    <string name="user_info_account_download_qq">Please download QQ first.</string>
+    <string name="user_info_account_download_facebook">Please download Facebook first.</string>
+    <string name="user_info_account_download_google">Please download Google App first.</string>
+    <string name="user_info_phone_view_bind_phone">Associate Phone</string>
+    <string name="login_view_phone_bind">Associate Phone</string>
+    <string name="login_view_email_bind">Link email</string>
+    <string name="login_view_login_with_phone_verify">SMS verification</string>
+    <string name="login_view_pls_email_verify_code_android">Email Address Verification</string>
+    <string name="cancel_the_auth">Cancel authorization</string>
+    <string name="user_info_account_bind_login_android">Unlink %s</string>
+    <string name="user_info_bind_account_change_tips1">Please unauthorize this account and login using another account or method.</string>
+    <string name="login_view_logging">Logging In</string>
+    <!--第三方账号登录end-->
+
+    <!--h5-->
+    <string name="h5_share_content1">%s \'s Page</string>
+    <string name="h5_share_content2">Created using RoWrite\nCreate - Capture - Share</string>
+    <string name="h5_share_content3">Created using RoWrite\nCreate - Capture - Share</string>
+    <string name="h5_view_login_share">Please login to Royole account in order to share </string>
+    <string name="system_msg_networking_error">Something wrong with the network. Please try again.</string>
+    <string name="H5_share_content7">Shared Successfully</string>
+    <!--h5-->
+
+    <!--保存多张图片-->
+    <string name="social_share_save_multi_img_android">Save %1$s Pages</string>
+    <string name="social_share_pdf_more_android">Export PDF to</string>
+    <string name="social_share_png_more">Export PNG to</string>
+    <string name="social_share_jpg_more">Export JPG to</string>
+    <!--保存多张图片-->
+
+    <!--印象笔记 autor YB-->
+    <string name="drawboard_recognition_copy_Evernote">Copy to Evernote</string>
+    <string name="login_view_alert_other_device">You are currently logged in on another device</string>
+    <!--印象笔记 autor YB-->
+
+    <!--v1.8安全连接-->
+    <string name="board_settings_view_band_device_name">RoWrite\'s name</string>
+    <string name="board_settings_view_change_band_device_name">Create a name for RoWrite</string>
+    <string name="board_settings_view_bluetooth_search_device">Creating a name makes it easier to identify and pair your RoWrite</string>
+    <string name="board_settings_view_change_band_device_psd">Reset RoWrite Connection Password</string>
+    <string name="board_settings_view_device_connection_mode">Connection Mode</string>
+
+    <string name="board_settings_device_list_connect_successful">Successfully Connected</string>
+    <string name="board_settings_device_list_connect_name">Please enter RoWrite\'s name</string>
+    <string name="board_settings_device_list_connect_name_tip">When creating a name for RoWrite choose one that is easily remembered</string>
+    <string name="board_settings_device_list_disconnect_tip">Unlink account</string>
+    <string name="board_settings_device_list_disconnect_tip1">RoWrite is no longer associated with an account. All data saved in Rowrite\'s internal memory can be accessed by anyone.</string>
+    <string name="board_settings_device_list_disconnect_tip2">RoWrite is associated to an account and in Private Mode. To remove this account the account owner\'s mobile device must be connected.</string>
+
+    <string name="app_settings_mode_selection">Please Select</string>
+    <string name="app_settings_public_mode_title">Public Mode</string>
+    <string name="app_settings_public_mode_title_tip1">Anyone can connect to this RoWrite</string>
+    <string name="app_settings_private_mode_title">Private Mode</string>
+    <string name="app_settings_private_mode_title_tip2">Owner\'s mobile device or a password is needed to connect to this RoWrite</string>
+    <string name="app_settings_private_mode_start_title1">Please enter password</string>
+    <string name="app_settings_private_mode_start">RoWrite is in Private Mode</string>
+    <string name="app_settings_private_mode_connect_password">Enter the 6-digit connection password</string>
+    <string name="app_settings_private_mode_set_new_psd">Please enter 18 letters</string>
+    <string name="app_settings_private_mode_title2">RoWrite is in Private Mode</string>
+    <string name="app_settings_private_mode_start_title3">Create 6-digit connection password</string>
+    <string name="app_settings_public_mode_start">RoWrite is in Public Mode</string>
+    <string name="app_settings_private_mode_enter_original_psd">Please enter 6-digit connection password</string>
+    <string name="app_settings_private_mode_enter_new_password">Create 6-digit connection password</string>
+    <string name="app_settings_private_mode_set_psd_tip">Enter the 6-digit connection password to connect to this RoWrite</string>
+    <string name="app_settings_private_mode_forget_psd">Forgot RoWrite Connection Password</string>
+    <string name="app_settings_private_mode_reset_device">To reset RoWrite, find a needle or other smaller item and insert it into the reset hole near the power button on Rowrite</string>
+    <string name="app_settings_private_mode_reset_device_tip">Note, if you reset RoWrite all contents stored on RoWrite\'s internal memory will be deleted. Before resetting please transfer all data from RoWrite to the RoWrite app.</string>
+
+    <string name="server_user_info_invalid_pwd_retype">Wrong password. Please enter again.</string>
+    <string name="server_user_info_invalid_pwd_retry">Incorrect password entered three times. Please wait 15 minutes before re-entering password. </string>
+    <string name="server_user_info_invalid_pwd_reset">Password successfully reset</string>
+    <string name="server_user_info_time_limitation_psd">Please enter password in 2 minutes.</string>
+    <string name="board_settings_dfu_view_new_version_alert_clear_mesg">This will delete all Pages stored on RoWrite.</string>
+    <!--v1.8安全连接-->
+    <string name="server_user_info_view_update_now">RoWrite App Update Available</string>
+    <string name="server_user_info_view_update_content">What\'s new in the app update</string>
+    <!--首页Tab start-->
+    <string name="notelist_home_homepage_name">Page</string>
+    <string name="notelist_home_store_name">Store</string>
+    <string name="notelist_home_me_name">Settings</string>
+    <!--首页Tab end-->
+
+    <!--个人中心-->
+    <string name="cloud_storage_sync_content16">Cloud Space</string>
+    <string name="settings_unlogin_title">Log In</string>
+    <string name="settings_card_purchase_rowrite">Purchase RoWrite</string>
+    <string name="settings_card_convert_text_vip">Unlock Convert to Text feature with RoWrite purchase</string>
+    <string name="settings_card_upgrade_vip_member">Purchase</string>
+    <string name="system_msg_networking_error_tips">Network error. Please try again.</string>
+    <!--个人中心-->
+
+    <!--排序时间轴 -->
+    <string name="notelist_default_sort">Default Sort</string>
+    <string name="notelist_default_sort_ascending_order">First to Last</string>
+    <string name="notelist_default_sort_descending_order">Last to First</string>
+    <string name="notelist_dafault_page_name_Monday">Monday</string>
+    <string name="notelist_dafault_page_name_Tuesday">Tuesday</string>
+    <string name="notelist_dafault_page_name_Wednesday">Wednesday</string>
+    <string name="notelist_dafault_page_name_Thursday">Thursday</string>
+    <string name="notelist_dafault_page_name_Friday">Friday</string>
+    <string name="notelist_dafault_page_name_Saturday">Saturday</string>
+    <string name="notelist_dafault_page_name_Sunday">Sunday</string>
+    <string name="notelist_dafault_page_name_Jan">, January&#160;</string>
+    <string name="notelist_dafault_page_name_Feb">, February&#160;</string>
+    <string name="notelist_dafault_page_name_Mar">, March&#160;</string>
+    <string name="notelist_dafault_page_name_Apr">, April&#160;</string>
+    <string name="notelist_dafault_page_name_May">, May&#160;</string>
+    <string name="notelist_dafault_page_name_Jun">, June&#160;</string>
+    <string name="notelist_dafault_page_name_Jul">, July&#160;</string>
+    <string name="notelist_dafault_page_name_Aug">, August&#160;</string>
+    <string name="notelist_dafault_page_name_Sept">, September&#160;</string>
+    <string name="notelist_dafault_page_name_Oct">, October&#160;</string>
+    <string name="notelist_dafault_page_name_Nov">, November&#160;</string>
+    <string name="notelist_dafault_page_name_Dec">, December&#160;</string>
+    <string name="notelist_dafault_page_name_today">Today</string>
+    <string name="notelist_dafault_page_name_yesterday">Yesterday</string>
+
+</resources>
