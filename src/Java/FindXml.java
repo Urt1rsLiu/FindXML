@@ -1,5 +1,8 @@
 package Java;
 
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
@@ -8,6 +11,7 @@ import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -34,13 +38,71 @@ public class FindXml {
 
 //        findXml.compareXml(xmlFileName, newXmlFileName);
 
-        findXml.compareWithXml2(newXmlFileName, latestXmlFileName);
+        findXml.compareWithXml2("strings.xml", "strings2.xml");
+
+//        File inputExcel = new File("excel", "resource.xlsx");
+//        if (!inputExcel.exists()) {
+//            System.out.println("excel is not exist");
+//        }
+//        try {
+//            readExcelToXml(inputExcel);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
     }
 
     private void compareXml(String beforeXmlFileName, String xmlFileName) {
         readBeforeXml(beforeXmlFileName);
         compareWithXml(xmlFileName);
 
+    }
+
+    private static File readExcelToXml(File excelFile) throws Exception {
+        Document document = DocumentHelper.createDocument();
+        Element rootElement = document.addElement("resources");
+        //read from column 3 and 15, and in range of line 2 to end
+        final int keyColumn = 2;
+        final int langColumn = 14;
+        FileInputStream fileInputStream = new FileInputStream(excelFile);
+        XSSFWorkbook workbook = new XSSFWorkbook(fileInputStream);
+        //读取excel里的第0张表
+        XSSFSheet sheet = workbook.getSheetAt(0);
+        System.out.println("sheet last row num:  " + sheet.getLastRowNum());
+        for (int i = 1; i <= sheet.getLastRowNum(); i++) {
+            XSSFRow row = sheet.getRow(i);
+            String key = row.getCell(keyColumn).getStringCellValue();
+            String word = row.getCell(langColumn).getStringCellValue();
+            if (null == key || key.equals("") || null == word || word.equals("")) {
+                continue;
+            }
+            Element element = rootElement.addElement("string");
+            element.addAttribute("name", key);
+            element.setText(word);
+        }
+        fileInputStream.close();
+
+
+        //开始输出
+        File result = new File("generatedXml", "strings2.xml");
+        if (result.exists()) {
+            result.delete();
+        }
+        result.createNewFile();
+        //用于格式化xml内容和设置头部标签
+        OutputFormat format = OutputFormat.createPrettyPrint();
+        //设置xml文档的编码为utf-8
+        format.setEncoding("utf-8");
+        try {
+            FileWriter fileWriter = new FileWriter(result, true);
+            //创建一个dom4j创建xml的对象
+            XMLWriter writer = new XMLWriter(fileWriter, format);
+            writer.write(document);
+            writer.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 
     private void readBeforeXml(String xmlFileName) {
@@ -143,7 +205,7 @@ public class FindXml {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        generateXmlFile(generateXmlFile, xmlFileName2);
+//        generateXmlFile(generateXmlFile, xmlFileName2);
     }
 
 
